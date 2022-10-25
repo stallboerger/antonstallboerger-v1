@@ -4,7 +4,10 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 import React from 'react';
-import "@fontsource/inter";
+// import "@fontsource/inter";
+// import { Inter } from '@next/font/google';
+
+// const inter = Inter();
 // import { Iconoir } from 'iconoir-react';
 
 export default function Home() {
