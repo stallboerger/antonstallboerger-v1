@@ -8,7 +8,6 @@ import React from 'react';
 // import { Inter } from '@next/font/google';
 
 // const inter = Inter();
-// import { Iconoir } from 'iconoir-react';
 
 export default function Home() {
   return (
