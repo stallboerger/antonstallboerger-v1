@@ -19,7 +19,6 @@ export const Main = () => {
                 <p className='pb-6'>
                 Here are some of my curated works i’ve done in the past.
                 </p>
-                {/* <Iconoir color="red" height='36' width='36' /> */}
                 <Image src="/assets/projects/ups_app.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
                 Package App
