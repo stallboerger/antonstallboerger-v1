@@ -12,7 +12,7 @@ const Navbar = () => {
                     </ul> 
                 </Link>
                 <div>
-                    <ul className='hidden md:flex border-[1px] hover:bg-zinc-100 py-1 px-2 rounded-lg'>
+                    <ul className='flex border-[1px] hover:bg-zinc-100 py-1 px-2 rounded-lg'>
                         <Link href='/'>
                             <ul>
                                 <li className='text-l'>Contact</li>

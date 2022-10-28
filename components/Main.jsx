@@ -19,7 +19,7 @@ export const Main = () => {
                 <p className='pb-6'>
                 Here are some of my curated works i’ve done in the past.
                 </p>
-                <Image src="/assets/projects/ups_app.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
+                <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
                 Package App
                 </p>
@@ -29,7 +29,7 @@ export const Main = () => {
                 <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
-                <Image src="/assets/projects/homy_app.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
+                <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
                 Homy
                 </p>
@@ -39,9 +39,9 @@ export const Main = () => {
                 <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
-                <Image src="/assets/projects/infosystem.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
+                <Image src="/assets/projects/infosystem.png" alt='Design Classics Informationsystem' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
-                Informationssystem
+                Informationsystem
                 </p>
                 <p className='text-sm text-zinc-500'>
                 Design Classics
