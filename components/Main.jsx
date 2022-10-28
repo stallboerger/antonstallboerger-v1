@@ -7,8 +7,8 @@ export const Main = () => {
         <div className='max-w-[545px] w-full h-full mx-auto flex justify-left'>
             <div>
                 <ul className='flex flex-column pb-6'>
-                  <li className=''>Anton Stallbörger</li>
-                  <li className=''>Schwäbisch Gmünd</li>
+                  <li className='text-sm'>Schwäbisch Gmünd, DE</li>
+                  <li className='text-sm'>20:39 GMT</li>
                 </ul>
                 <h1>
                     Product Designer and Developer building the future
@@ -23,30 +23,30 @@ export const Main = () => {
                 <p className='text-sm'>
                 Package App
                 </p>
-                <p className='text-sm text-zinc-400'>
+                <p className='text-sm text-zinc-500'>
                 UPS App Redesign
                 </p>
-                <p className='text-sm pb-6 text-zinc-400'>
+                <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
                 <Image src="/assets/projects/homy_app.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
                 Homy
                 </p>
-                <p className='text-sm text-zinc-400'>
+                <p className='text-sm text-zinc-500'>
                 Energy Smart Home App
                 </p>
-                <p className='text-sm pb-6 text-zinc-400'>
+                <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
                 <Image src="/assets/projects/infosystem.png" alt='/' width="545" height="305" className='rounded-xl'></Image>
                 <p className='text-sm'>
                 Informationssystem
                 </p>
-                <p className='text-sm text-zinc-400'>
+                <p className='text-sm text-zinc-500'>
                 Design Classics
                 </p>
-                <p className='text-sm pb-6 text-zinc-400'>
+                <p className='text-sm pb-6 text-zinc-500'>
                 Q4 2021
                 </p>
                 <p className='pb-6'>
