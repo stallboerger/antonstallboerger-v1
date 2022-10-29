@@ -17,14 +17,12 @@ export default function Home() {
         property="og:image"
         content="https://my-og-img.vercel.app/api/og?title=my post title"
         />
-        <meta name="theme-color" content="#317EFB"/>
+        <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
-      {/* <Dropdown /> */}
       <Main />
-      <Footer />
       
       </div>
   )
