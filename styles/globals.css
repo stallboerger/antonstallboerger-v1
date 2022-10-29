@@ -4,11 +4,11 @@
 
 @layer base {
   html {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, -apple-system, "system-ui", "Helvetica Neue", sans-serif;
   }
 
   body {
-    @apply bg-white text-black tracking-wide
+    @apply bg-white text-black
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -16,7 +16,7 @@
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold
   }
 
   h2 {
@@ -32,6 +32,6 @@
   };
 
   p {
-    @apply text-lg 
+    @apply text-lg sm:text-base md:text-lg
   }
 }
