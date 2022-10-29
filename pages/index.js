@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import Dropdown from '../components/Dropdown'
 import React from 'react';
 // import "@fontsource/inter";
 // import { Inter } from '@next/font/google';
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <Dropdown/>
       <Main />
       <Footer />
       
