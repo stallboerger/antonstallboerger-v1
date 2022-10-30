@@ -7,7 +7,7 @@ import { ClockIcon } from '@heroicons/react/24/outline'
 export const Main = () => {
   return (
     <div className='w-full h-auto pt-[180px]'>
-        <div className='max-w-[593px]  h-full mx-auto flex justify-center px-6'>
+        <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='flex flex-column gap-2 pb-2'>
                 <div className='border-[1px] rounded-full py-1 px-2 flex flex-column gap-1 text-red-600 items-center '>
@@ -21,8 +21,8 @@ export const Main = () => {
                 </div>
               </div>
             </div>
-                <h1 className=''>
-                    Product Designer and Developer building the future
+                <h1 className='text-7xl tracking-tight font-bold'>
+                    Digital Product Designer and Developer driven by curiosity
                 </h1>
                 <p className='py-6'>
                 I currently study at the University of Desing in Schäbisch Gmünd, Germany - focusing on digital products and development. I am passionate about creating products that are useful, beautiful and easy to use. I am also a big fan of open source and the community around it.
@@ -30,7 +30,7 @@ export const Main = () => {
                 <p className='pb-6'>
                 Here are some of my curated works i’ve done in the past.
                 </p>
-                <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="545" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Package App
                 </p>
@@ -40,7 +40,7 @@ export const Main = () => {
                 <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
-                <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="545" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Homy
                 </p>
@@ -50,7 +50,7 @@ export const Main = () => {
                 <p className='text-sm pb-6 text-zinc-500'>
                 Q2 2022
                 </p>
-                <Image src="/assets/projects/infosystem.png" alt='Design Classics Informationsystem' width="545" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/infosystem.png" alt='Design Classics Informationsystem' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Informationsystem
                 </p>
