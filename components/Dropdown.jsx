@@ -1,6 +1,5 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { MapPinIcon } from '@heroicons/react/20/solid'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -12,7 +11,6 @@ export default function Example() {
       <div>
         <Menu.Button className="inline-flex w-full justify-center rounded-md border border-zinc-300 bg-white px-2 py-1 text-l font-medium text-zinc-700  hover:bg-zinc-50 ">
           Contact
-          {/* <MapPinIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" /> */}
         </Menu.Button>
       </div>
 

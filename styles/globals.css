@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  :root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
   html {
-    font-family: "Inter", -apple-system, "system-ui", "Helvetica Neue", sans-serif;
+    
   }
 
   body {
@@ -16,7 +21,7 @@
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight
   }
 
   h2 {

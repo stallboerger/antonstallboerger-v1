@@ -1,11 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Main from '../components/Main'
-import Footer from '../components/Footer'
-import Dropdown from '../components/Dropdown'
 import React from 'react';
-import "@fontsource/inter";
 
 export default function Home() {
   return (
@@ -19,6 +15,8 @@ export default function Home() {
         />
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://rsms.me/" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <Navbar />

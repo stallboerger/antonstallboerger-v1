@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Footer from '../components/Footer'
-import { MapPinIcon } from '@heroicons/react/24/outline'
-import { ClockIcon } from '@heroicons/react/24/outline'
 
 export const Main = () => {
   return (
@@ -10,19 +8,14 @@ export const Main = () => {
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='flex flex-column gap-2 pb-2'>
-                <div className='border-[1px] rounded-full py-1 px-2 flex flex-column gap-1 text-red-600 items-center '>
-                  <MapPinIcon className="h-5 w-5" aria-hidden="true" />
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, DE</p> 
+                <div className=''>
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, DE | 20:39 GMT</p> 
                 </div>
-              <div className='flex flex-column gap-2 pb-2'>
-                <div className='border-[1px] rounded-full py-1 px-2 flex flex-column gap-1 text-blue-600'>
-                  <ClockIcon className="h-5 w-5" aria-hidden="true" />
-                  <p className='text-sm text-zinc-500'>20:39 GMT</p>
-                </div>
-              </div>
             </div>
-                <h1 className='text-7xl tracking-tight font-bold'>
-                    Digital Product Designer and Developer driven by curiosity
+                <h1 className=''>
+                    Digital Product Designer and Developer driven 
+                    <br />
+                    by curiosity
                 </h1>
                 <p className='py-6'>
                 I currently study at the University of Desing in Schäbisch Gmünd, Germany - focusing on digital products and development. I am passionate about creating products that are useful, beautiful and easy to use. I am also a big fan of open source and the community around it.
