@@ -7,7 +7,7 @@ import { ClockIcon } from '@heroicons/react/24/outline'
 export const Main = () => {
   return (
     <div className='w-full h-auto pt-[180px]'>
-        <div className='max-w-[545px] w-full h-full mx-auto flex justify-left'>
+        <div className='max-w-[593px]  h-full mx-auto flex justify-center px-6'>
             <div>
               <div className='flex flex-column gap-2 pb-2'>
                 <div className='border-[1px] rounded-full py-1 px-2 flex flex-column gap-1 text-red-600 items-center '>
