@@ -37,6 +37,6 @@
   };
 
   p {
-    @apply text-lg sm:text-base md:text-lg
+    @apply text-lg sm:text-base 
   }
 }
