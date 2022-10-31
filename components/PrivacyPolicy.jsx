@@ -43,7 +43,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 * Account means a unique account created for You to access our Service or parts of our Service.
                 <br/>
-                * Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Anton Stallbörger.
+                * Company (referred to as either the Company, We, Us or Our in this Agreement) refers to Anton Stallbörger.
                 <br/>
                 * Cookies are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
                 <br/>
@@ -113,7 +113,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+                Usage Data may include information such as Your Devices Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
                 <br/>
                 <br/>
 
@@ -136,14 +136,14 @@ export const PrivacyPolicy = () => {
 
                 * Cookies or Browser Cookies. A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.
                 <br/>
-                * Flash Cookies. Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read "Where can I change the settings for disabling, or deleting local shared objects?" available at https://helpx.adobe.com/flash-player/kb/disable-local-shared objectsflash.html#main_Where_can_I_change_the_settings_for_disabling
+                * Flash Cookies. Certain features of our Service may use local stored objects or Flash Cookies to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read Where can I change the settings for disabling, or deleting local shared objects? available at https://helpx.adobe.com/flash-player/kb/disable-local-shared objectsflash.html#main_Where_can_I_change_the_settings_for_disabling
                 __or_deleting_local_shared_objects_
                 <br/>
                 * Web Beacons. Certain sections of our Service and our emails may containsmall electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
                 <br/>
                 <br/>
 
-                Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on [TermsFeed website](https://www.termsfeed.com/blog/cookies/#What_Are_Cookies) article.
+                Cookies can be Persistent or Session Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on [TermsFeed website](https://www.termsfeed.com/blog/cookies/#What_Are_Cookies) article.
                 <br/>
                 <br/>
 
@@ -225,7 +225,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                * To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+                * To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile applications push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
                 <br/>
                 <br/>
 
@@ -284,7 +284,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+                Your information, including Personal Data, is processed at the Companys operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
                 <br/>
                 <br/>
 
@@ -354,7 +354,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                Children's Privacy  
+                Childrens Privacy  
                 <br/>
                 ==================
                 <br/>
@@ -365,7 +365,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
+                If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parents consent before We collect and use that information.
                 <br/>
                 <br/>
 
@@ -375,7 +375,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+                Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third partys site. We strongly advise You to review the Privacy Policy of every site You visit.
                 <br/>
                 <br/>
 
@@ -393,7 +393,7 @@ export const PrivacyPolicy = () => {
                 <br/>
                 <br/>
 
-                We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
+                We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the Last updated date at the top of this Privacy Policy.
                 <br/>
                 <br/>
 
