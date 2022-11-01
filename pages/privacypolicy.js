@@ -15,8 +15,6 @@ export default function Home() {
         />
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://rsms.me/" />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <Navbar />

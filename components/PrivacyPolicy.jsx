@@ -5,7 +5,6 @@ export const PrivacyPolicy = () => {
   return (
     <div className='w-full h-auto pt-[180px]'>
         <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-            <div className='w-full'>
                 <p className='pb-6'>
                 Privacy Policy  
                 <br/>
@@ -413,7 +412,6 @@ export const PrivacyPolicy = () => {
 
                 * By email: anton@stallboerger.de
                 </p>
-            </div>
             <Footer />
         </div> 
     </div>

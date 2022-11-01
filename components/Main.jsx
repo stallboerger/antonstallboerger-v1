@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 export const Main = () => {
   return (
-    <div className='w-full h-auto pt-[180px]'>
+    <div className='w-full h-auto pt-[180px] sm:pt-[140px]'>
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2'>
@@ -52,7 +52,7 @@ export const Main = () => {
               Q4 2021
               </p>
               <p className='pb-6'>
-              For more information about me or if you just want to chat about design, technology or life hit me up. Im always open for something new.
+              For more information about me or if you just want to chat about design, technology or life hit me up. Im always open for something new. 
               </p>
               <Footer />
             </div>
