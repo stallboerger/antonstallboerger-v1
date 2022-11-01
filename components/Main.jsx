@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 export const Main = () => {
   return (
-    <div className='w-full h-auto pt-[180px] sm:pt-[140px]'>
+    <div className='w-full h-auto pt-[140px] md:pt-[180px]'>
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2'>
