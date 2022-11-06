@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
+import { Link } from 'iconoir-react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -53,7 +54,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="https://twitter.com/AntonStalli"
                   target="_blank"
                   className={classNames(
@@ -62,7 +63,7 @@ export default function Example() {
                   )}
                 >
                   Twitter
-                </a>
+                </Link>
               )}
             </Menu.Item>
           </div>
