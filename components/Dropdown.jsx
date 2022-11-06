@@ -54,7 +54,8 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="https://twitter.com/AntonStalli"
+                  target="_blank"
                   className={classNames(
                     active ? 'bg-zinc-100 text-zinc-900' : 'text-zinc-700',
                     'block px-4 py-2 text-sm'
