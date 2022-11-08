@@ -57,6 +57,7 @@ export default function Example() {
                 <a
                   href="https://twitter.com/AntonStalli"
                   target="_blank"
+                  rel="noreferrer"
                   className={classNames(
                     active ? 'bg-zinc-100 text-zinc-900' : 'text-zinc-700',
                     'block px-4 py-2 text-sm'
