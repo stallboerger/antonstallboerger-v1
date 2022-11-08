@@ -54,7 +54,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link
+                <a
                   href="https://twitter.com/AntonStalli"
                   target="_blank"
                   className={classNames(
@@ -63,7 +63,7 @@ export default function Example() {
                   )}
                 >
                   Twitter
-                </Link>
+                </a>
               )}
             </Menu.Item>
           </div>
