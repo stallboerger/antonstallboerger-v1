@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export const Main = () => {
   return (
@@ -21,16 +22,18 @@ export const Main = () => {
               <p className='pb-6'>
               Here are some of my curated works I&apos;ve done in the past.
               </p>
-              <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
-              <p className='text-sm'>
-              Package App
-              </p>
-              <p className='text-sm text-zinc-500'>
-              UPS App Redesign
-              </p>
-              <p className='text-sm pb-6 text-zinc-500'>
-              Q2 2022
-              </p>
+              <Link href='/upsapp'>
+                <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
+                <p className='text-sm'>
+                Package App
+                </p>
+                <p className='text-sm text-zinc-500'>
+                UPS App Redesign
+                </p>
+                <p className='text-sm pb-6 text-zinc-500'>
+                Q2 2022
+                </p>
+              </Link>
               <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
               <p className='text-sm'>
               Homy
