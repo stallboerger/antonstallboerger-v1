@@ -2,14 +2,17 @@ import React from 'react'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Link from 'next/link'
+import GMTTime from './GMTTime';
 
 export const Main = () => {
   return (
     <div className='w-full h-auto pt-[140px] md:pt-[180px]'>
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
-              <div className='pb-2'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, DE | 20:39 GMT</p> 
+              <div className='pb-2 flex flex-row'>
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, DE &nbsp;| &nbsp;</p>
+                  <GMTTime /> 
+                  <p className='text-sm text-zinc-500'>&nbsp; GMT</p>
               </div>
               <h1>
               Digital Product Designer and Developer driven 
