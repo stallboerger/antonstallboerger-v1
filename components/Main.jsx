@@ -10,7 +10,7 @@ export const Main = () => {
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2 flex flex-row'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, DE &nbsp;| &nbsp;</p>
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER &nbsp;| &nbsp;</p>
                   <GMTTime /> 
                   <p className='text-sm text-zinc-500'>&nbsp; GMT</p>
               </div>
@@ -20,7 +20,7 @@ export const Main = () => {
               by curiosity
               </h1>
               <p className='py-6'>
-              I currently study at the University of Desing in Schäbisch Gmünd, Germany - focusing on digital products and development. I am passionate about creating products that are useful, beautiful and easy to use. I am also a big fan of open source and the community around it.
+              At the moment, I'm a student at the University of Design in Schäbisch Gmünd, Germany where I'm focusing on digital products and development. I love creating products that are functional, aesthetically pleasing, and user-friendly. In addition, I'm an avid supporter of the open source movement and the community that surrounds it.
               </p>
               <p className='pb-6'>
               Here are some of my curated works I&apos;ve done in the past.
@@ -58,7 +58,7 @@ export const Main = () => {
               Q4 2021
               </p>
               <p className='pb-6'>
-              For more information about me or if you just want to chat about design, technology or life, hit me up. I&apos;m always open for something new. 
+              If you want to learn more about me or just want to talk about design, technology, or life in general, don't hesitate to reach out. I'm always open to new conversations and opportunities.
               </p>
               <Footer />
             </div>
