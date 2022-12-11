@@ -20,7 +20,7 @@ export const Main = () => {
               by curiosity
               </h1>
               <p className='py-6'>
-              At the moment, I'm a student at the University of Design in Schäbisch Gmünd, Germany where I'm focusing on digital products and development. I love creating products that are functional, aesthetically pleasing, and user-friendly. In addition, I'm an avid supporter of the open source movement and the community that surrounds it.
+              At the moment, I&apos;m a student at the University of Design in Schäbisch Gmünd, Germany where I&apos;m focusing on digital products and development. I love creating products that are functional, aesthetically pleasing, and user-friendly. In addition, I&apos;m an avid supporter of the open source movement and the community that surrounds it.
               </p>
               <p className='pb-6'>
               Here are some of my curated works I&apos;ve done in the past.
@@ -58,7 +58,7 @@ export const Main = () => {
               Q4 2021
               </p>
               <p className='pb-6'>
-              If you want to learn more about me or just want to talk about design, technology, or life in general, don't hesitate to reach out. I'm always open to new conversations and opportunities.
+              If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
               <Footer />
             </div>
