@@ -25,6 +25,7 @@ export const Main = () => {
               <p className='pb-6'>
               Here are some of my curated works I&apos;ve done in the past.
               </p>
+            
               <Link href='/upsapp'>
                 <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
@@ -37,6 +38,18 @@ export const Main = () => {
                 Q2 2022
                 </p>
               </Link>
+              <Link href="#">
+                <Image src="/assets/projects/curations.png" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <p className='text-sm'>
+                Curations
+                </p>
+                <p className='text-sm text-zinc-500'>
+                Curated Collection of Tools
+                </p>
+                <p className='text-sm pb-6 text-zinc-500'>
+                Q4 2022
+                </p>
+              </Link>
               <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
               <p className='text-sm'>
               Homy
@@ -46,16 +59,6 @@ export const Main = () => {
               </p>
               <p className='text-sm pb-6 text-zinc-500'>
               Q2 2022
-              </p>
-              <Image src="/assets/projects/infosystem.png" alt='Design Classics Informationsystem' width="593" height="305" className='rounded-xl mb-2'></Image>
-              <p className='text-sm'>
-              Informationsystem
-              </p>
-              <p className='text-sm text-zinc-500'>
-              Design Classics
-              </p>
-              <p className='text-sm pb-6 text-zinc-500'>
-              Q4 2021
               </p>
               <p className='pb-6'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.

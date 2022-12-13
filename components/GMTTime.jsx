@@ -1,7 +1,6 @@
 import React from 'react';
 
 function GMTTime() {
-  // get the time in GMT
   const date = new Date();
   const hours = date.getUTCHours().toString().padStart(2, '0');
   const minutes = date.getUTCMinutes().toString().padStart(2, '0');
