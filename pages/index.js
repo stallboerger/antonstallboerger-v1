@@ -8,13 +8,13 @@ export default function Home() {
     <div>
       <Head>
         <title>Anton Stallbörger</title>
-        <meta property='og:title' content='Anton Stallbörger | Creative Technologist'></meta>
+        <meta property='og:title' content='Anton Stallbörger'></meta>
         <meta name="description" content="Digital Product Designer and Developer" />
         <meta
         property="og:image"
-        content="/assets/og_image.png"
+        content="https://antonstallboerger.com/og_image.png"
         />
-        <meta name="twitter:image" content="/og_image.png"></meta>
+        <meta name="twitter:image" content="https://antonstallboerger.com/og_image.png"></meta>
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
