@@ -8,10 +8,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Anton Stallbörger</title>
+        <meta property='og:title' content='Anton Stallbörger | Creative Technologist'></meta>
         <meta name="description" content="Digital Product Designer and Developer" />
         <meta
         property="og:image"
-        content="https://my-og-img.vercel.app/api/og?title=my post title"
+        content="/assets/image.svg"
         />
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
