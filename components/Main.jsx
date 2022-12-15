@@ -50,16 +50,18 @@ export const Main = () => {
                 Q4 2022
                 </p>
               </Link>
-              <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
-              <p className='text-sm'>
-              Homy
-              </p>
-              <p className='text-sm text-zinc-500'>
-              Energy Smart Home App
-              </p>
-              <p className='text-sm pb-6 text-zinc-500'>
-              Q2 2022
-              </p>
+              <Link href="#">
+                <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <p className='text-sm'>
+                Homy
+                </p>
+                <p className='text-sm text-zinc-500'>
+                Energy Smart Home App
+                </p>
+                <p className='text-sm pb-6 text-zinc-500'>
+                Q2 2022
+                </p>
+              </Link>
               <p className='pb-6'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
