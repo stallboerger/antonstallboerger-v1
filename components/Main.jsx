@@ -38,7 +38,7 @@ export const Main = () => {
                 Q2 2022
                 </p>
               </Link>
-              <Link href="#">
+              <Link href="/curations">
                 <Image src="/assets/projects/curations.png" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Curations
@@ -50,7 +50,7 @@ export const Main = () => {
                 Q4 2022
                 </p>
               </Link>
-              <Link href="#">
+              <Link href="homyapp">
                 <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Homy
