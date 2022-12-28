@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { Link } from 'iconoir-react'
+import CopyToClipboardButton from './CopyToClipboard'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -39,19 +40,7 @@ export default function Example() {
                 </a>
               )}
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-zinc-100 text-zinc-900' : 'text-zinc-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Copy Email
-                </a>
-              )}
-            </Menu.Item>
+            <CopyToClipboardButton />
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -73,3 +62,4 @@ export default function Example() {
     </Menu>
   )
 }
+
