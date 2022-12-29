@@ -11,7 +11,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center rounded-md border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700  hover:bg-zinc-50 ">
+        <Menu.Button className="inline-flex w-full justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700  hover:bg-zinc-50">
           Contact
         </Menu.Button>
       </div>

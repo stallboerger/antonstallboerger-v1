@@ -66,7 +66,6 @@ export const Main = () => {
               <p className='pb-6'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
-              <CopyToClipboardButton />
               <Footer />
             </div>
         </div> 
