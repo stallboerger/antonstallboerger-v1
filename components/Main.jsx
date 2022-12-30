@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 import GMTTime from './GMTTime';
-import CopyToClipboardButton from './CopyToClipboard';
+import Carousel from './Carousel';
 
 export const Main = () => {
   return (

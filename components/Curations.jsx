@@ -2,11 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {Internet} from 'iconoir-react'
+import Footer from './Footer'
 
 export const Curations = () => {
     return (
         <div className='w-full h-auto pt-[180px]'>
-            <div className='max-w-[593px] h-full mx-auto flex flex-col px-4 pb-40'>
+            <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Curations</h2>
                 <Link href="https://www.curations.tech/" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
                     <Internet className="text-xs self-center"/>
@@ -35,6 +36,7 @@ export const Curations = () => {
                 <br />
                 Overall, Curations has been a greatly appreciated by users since its launch, thanks to its extensive collection of high-quality design resources and its user-friendly interface. Its focus on providing free resources has also helped it to gain a loyal following among designers and creative professionals.
                 </p>
+                <Footer />
             </div>
         </div>
     )
