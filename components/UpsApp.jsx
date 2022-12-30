@@ -31,6 +31,7 @@ export const UpsApp = () => {
                 <br />
                 <Image src="/assets/projects/ups_app_screens.png" alt='UPS App Redesign' width="593" height="305" className='rounded-xl mb-2' priority='true'></Image>
                 <br />
+                <h3 className='text-2xl pb-2'>Conclusion</h3>
                 Overall, the UPS app redesign was a successful project that demonstrates the value of investing in user-centered design and testing to create a better product.
                 </p>
                 <Footer />

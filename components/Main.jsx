@@ -63,6 +63,18 @@ export const Main = () => {
                 Q2 2022
                 </p>
               </Link>
+              {/* <Link href="#"> */}
+                <Image src="/assets/projects/in_progress.png" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <p className='text-sm'>
+                Work in Progress 
+                </p>
+                <p className='text-sm text-zinc-500'>
+                Coming Soon
+                </p>
+                <p className='text-sm pb-6 text-zinc-500'>
+                Q1 2023
+                </p>
+              {/* </Link> */}
               <p className='pb-6'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
