@@ -6,7 +6,7 @@ function CopyToClipboardButton() {
     const tempTextField = document.createElement('textarea');
 
     // Set the value of the text field to the desired string
-    tempTextField.value = 'test@stallboerger.de';
+    tempTextField.value = 'anton@stallboerger.de';
 
     // Append the text field to the body (necessary for the copy to work)
     document.body.appendChild(tempTextField);
