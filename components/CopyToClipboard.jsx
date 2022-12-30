@@ -1,6 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { Copy, ClipboardCheck } from 'iconoir-react';
 
 function CopyToClipboardButton() {
+
+  const [text, setText] = useState('Copy to Clipboard');
+
   function handleClick() {
     // Create a temporary text field
     const tempTextField = document.createElement('textarea');
@@ -19,12 +23,22 @@ function CopyToClipboardButton() {
 
     // Remove the text field from the body
     document.body.removeChild(tempTextField);
+
+    setText('Copied!');
+
+    // Change the text back to the original text after one second
+    setTimeout(() => {
+      setText('Copy to Clipboard');
+    }, 1000);
   }
 
   return (
-    <button onClick={handleClick} className="text-zinc-700 block px-4 py-2 text-sm hover:text-zinc-900 hover:bg-zinc-100">
-      Copy to Clipboard
-    </button>
+    <a onClick={handleClick} className="text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2 cursor-pointer">
+      <Copy />
+      <p className='text-sm'>
+        {text}
+      </p>
+    </a>
   );
 }
 
