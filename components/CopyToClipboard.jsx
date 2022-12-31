@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Copy, ClipboardCheck } from 'iconoir-react';
+import { Copy } from 'iconoir-react';
 
 function CopyToClipboardButton() {
 
