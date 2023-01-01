@@ -31,7 +31,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <Link className='text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="mailto:anton@stallboerger.de"> 
-                  <Mail className='self-center'/>
+                  <Mail className='self-center text-xs'/>
                   <p className='text-sm'>
                     Compose Email
                   </p>
@@ -43,7 +43,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <Link className='text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
-                  <Twitter className='self-center'/>
+                  <Twitter className='self-center text-xs'/>
                   <p className='text-sm'>
                     Twitter
                   </p>

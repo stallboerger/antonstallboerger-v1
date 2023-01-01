@@ -34,7 +34,7 @@ function CopyToClipboardButton() {
 
   return (
     <a onClick={handleClick} className="text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2 cursor-pointer">
-      <Copy />
+      <Copy className='text-xs'/>
       <p className='text-sm'>
         {text}
       </p>

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Link from 'next/link'
 import GMTTime from './GMTTime';
 import Carousel from './Carousel';
+import { NavArrowRight } from 'iconoir-react';
 
 export const Main = () => {
   return (
@@ -29,39 +30,69 @@ export const Main = () => {
             
               <Link href='/upsapp'>
                 <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
-                <p className='text-sm'>
-                Package App
-                </p>
-                <p className='text-sm text-zinc-500'>
-                UPS App Redesign
-                </p>
-                <p className='text-sm pb-6 text-zinc-500'>
-                Q2 2022
-                </p>
+                <div className='flex pb-6 justify-between'>
+                  <div>
+                    <p className='text-sm'>
+                    Package App
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    UPS App Redesign
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Q2 2022
+                    </p>
+                  </div>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                    <p className='text-sm h-auto self-center'>
+                      Learn more
+                    </p> 
+                    <NavArrowRight className='text-xs self-center'/>
+                  </div>
+                </div>
               </Link>
               <Link href="/curations">
                 <Image src="/assets/projects/curations.png" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
-                <p className='text-sm'>
-                Curations
-                </p>
-                <p className='text-sm text-zinc-500'>
-                Curated Collection of Tools
-                </p>
-                <p className='text-sm pb-6 text-zinc-500'>
-                Q4 2022
-                </p>
+                <div className='flex pb-6 justify-between'>
+                  <div>
+                    <p className='text-sm'>
+                    Curations
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Curated Collection of Tools
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Q4 2022
+                    </p>
+                  </div>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                    <p className='text-sm h-auto self-center'>
+                      Learn more
+                    </p> 
+                    <NavArrowRight className='text-xs self-center'/>
+                  </div>
+                </div>
               </Link>
               <Link href="homyapp">
                 <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
-                <p className='text-sm'>
-                Homy
-                </p>
-                <p className='text-sm text-zinc-500'>
-                Energy Smart Home App
-                </p>
-                <p className='text-sm pb-6 text-zinc-500'>
-                Q2 2022
-                </p>
+                <div className='flex pb-6 justify-between'>
+                  <div>
+                    <p className='text-sm'>
+                    Homy
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Energy Smart Home App
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Q2 2022
+                    </p>
+                  </div>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                    <p className='text-sm h-auto self-center'>
+                      Learn more
+                    </p> 
+                    <NavArrowRight className='text-xs self-center'/>
+                  </div>
+                </div>
               </Link>
               {/* <Link href="#"> */}
                 <Image src="/assets/projects/in_progress.png" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
