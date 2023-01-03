@@ -42,7 +42,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline hover:text-zinc-800'>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 
@@ -64,7 +64,7 @@ export const Main = () => {
                     Q4 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline hover:text-zinc-800'>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 
@@ -86,7 +86,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline hover:text-zinc-800'>
+                  <div className='flex h-fit text-zinc-500 hover:underline'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 

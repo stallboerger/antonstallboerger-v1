@@ -20,11 +20,11 @@ export const Footer = () => {
                             <p className="text-sm">GitHub</p>
                         </Link>
             </div>
-            <p className="credits text-sm text-zinc-500 mb-6">&copy; Anton Stallbörger 2023. This website is hosted and deployed via <Link href='https://vercel.com/' target="_blank" className="hover:text-zinc-800">Vercel</Link>. 
-            Privacy-friendly Analytics by <Link href="https://vercel.com/analytics" target="_blank" className="hover:text-zinc-800">Vercel Analytics</Link>.</p>
+            <p className="credits text-sm text-zinc-500 mb-6">&copy; Anton Stallbörger 2023. This website is hosted and deployed via <Link href='https://vercel.com/' target="_blank" className="hover:underline">Vercel</Link>. 
+            Privacy-friendly Analytics by <Link href="https://vercel.com/analytics" target="_blank" className="hover:underline">Vercel Analytics</Link>.</p>
             <div className="flex gap-4 text-zinc-500 text-sm">
-                <Link href='/legalnotice' className="hover:text-zinc-800">Legal Notice</Link>
-                <Link href='/privacypolicy' className="hover:text-zinc-800">Privacy Policy</Link>
+                <Link href='/legalnotice' className="hover:underline">Legal Notice</Link>
+                <Link href='/privacypolicy' className="hover:underline">Privacy Policy</Link>
             </div>
         </div>
     )
