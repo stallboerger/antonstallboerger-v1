@@ -14,6 +14,10 @@ export default function Home() {
         property="og:image"
         content="https://antonstallboerger.com/og_image.png"
         />
+        <meta name='twitter:card' content='summary_large_image'></meta>
+        <meta name='twitter:site' content='@antonstalli'></meta>
+        <meta name='twitter:title' content='Anton Stallbörger Portfolio'></meta>
+        <meta name='twitter:description' content='Digital Product Designer and Developer'></meta>
         <meta name="twitter:image" content="https://antonstallboerger.com/og_image.png"></meta>
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
