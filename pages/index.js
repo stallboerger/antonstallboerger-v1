@@ -9,12 +9,12 @@ export default function Home() {
       <Head>
         <title>Anton Stallbörger</title>
         <meta 
-        property="og:image" 
-        content="https://antonstallboerger.com/og_image.png" 
+          property="og:image" 
+          content="https://antonstallboerger.com/og_image.png" 
         />
         <meta 
-        name="twitter:image" 
-        content="https://antonstallboerger.com/og_image.png" 
+          name="twitter:image" 
+          content="https://antonstallboerger.com/og_image.png" 
         />
       </Head>
 
