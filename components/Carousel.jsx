@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { NavArrowRight, NavArrowLeft } from 'iconoir-react'
 
 const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0)
   const images = [
-    '/assets/projects/homy_app.png',
-    '/assets/projects/curations.png',
-    '/assets/projects/ups_app.png'
+    '/assets/about/ausstellung.png',
+    '/assets/about/ausstellung2.png',
+    '/assets/about/norway.png',
+    '/assets/about/gray.png',
+    '/assets/about/ski.png'
   ]
 
   const handlePreviousClick = () => {
@@ -18,13 +21,13 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative overflow-hidden position-relative pb-6">
-      <Image src={images[currentImage]} alt={`Image ${currentImage + 1}`} className="object-cover rounded-xl" width="593" height="305"/>
-      <button onClick={handlePreviousClick} className="absolute left-0 top-[42%] flex justify-between items-center ml-2 rounded-full bg-zinc-50/75 p-2">
-        <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+    <div className="relative pb-6 z-0">
+      <Image src={images[currentImage]} alt={`Image ${currentImage + 1}`} className="object-cover rounded-xl max-h-[340px]" width="593" height="340"/>
+      <button onClick={handlePreviousClick} className="absolute left-0 top-[42%] flex justify-between items-center ml-4 rounded-full bg-zinc-50/75 p-2">
+        <NavArrowLeft className="h-6 w-6 stroke-2 text-zinc-800" />
       </button>
-      <button onClick={handleNextClick} className="absolute right-0 top-[42%] flex justify-between items-center mr-2 rounded-full bg-zinc-50/75 p-2">
-        <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+      <button onClick={handleNextClick} className="absolute right-0 top-[42%] flex justify-between items-center mr-4 rounded-full bg-zinc-50/75 p-2">
+        <NavArrowRight className="h-6 w-6 stroke-2 text-zinc-800" />
       </button>
     </div>
   )

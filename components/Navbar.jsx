@@ -4,7 +4,7 @@ import Dropdown from '../components/Dropdown'
 
 const Navbar = () => {
     return (
-        <div className='fixed w-full h-[53px] z-1 backdrop-blur-md'>
+        <div className='fixed w-full h-[53px] z-999'>
             <div className='flex justify-between items-center w-full h-full px-4 border-b-[1px] bg-white'>
                 <Link href='/'>
                     <ul>
