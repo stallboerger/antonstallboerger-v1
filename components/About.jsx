@@ -7,9 +7,9 @@ import { NavArrowRight } from 'iconoir-react'
 
 export const About = () => {
     return (
-        <div className='w-full h-auto pt-[180px]'>
+        <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-                <h2 className='pb-6'>About Me</h2>
+                <h2 className='pb-6'>About</h2>
                 <p className='pb-8'>
                 “Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do” - Virgil Abloh
                 <br />
@@ -26,10 +26,10 @@ export const About = () => {
                 My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:underline">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-4'>Tools I admire</h3>
-                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://www.figma.com/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
                     <Image src="/assets/about/figma.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium'>
+                        <p className='text-ml font-medium group-hover:underline'>
                         Figma
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -37,10 +37,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://iconoir.com/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
                     <Image src="/assets/about/iconoir.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium'>
+                        <p className='text-ml font-medium group-hover:underline'>
                         Iconoir
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -48,10 +48,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://arc.net/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
                     <Image src="/assets/about/arc.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium'>
+                        <p className='text-ml font-medium group-hover:underline'>
                         Arc Browser
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -59,10 +59,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://nextjs.org/" className='group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
                     <Image src="/assets/about/nextjs.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium'>
+                        <p className='text-ml font-medium group-hover:underline'>
                         Next.js
                         </p>
                         <p className='text-ml text-zinc-500'>

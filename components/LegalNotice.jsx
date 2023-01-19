@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 export const LegalNotice = () => {
   return (
-    <div className='w-full h-auto pt-[180px]'>
+    <div className='w-full h-auto pt-[140px]'>
         <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
             <p className='pb-6'>
                 Legal Notice 

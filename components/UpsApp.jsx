@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 export const UpsApp = () => {
     return (
-        <div className='w-full h-auto pt-[180px]'>
+        <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>UPS App Redesign</h2>
                 <Link href="https://www.figma.com/proto/3m2XkVbguuGwNYfWknrFg4/UPS-App-Redesign?page-id=138%3A18&node-id=707%3A12467&viewport=113%2C371%2C0.03&scaling=scale-down&starting-point-node-id=707%3A12467" className="hover:text-zinc-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">

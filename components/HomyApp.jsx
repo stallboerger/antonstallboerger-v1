@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 export const HomyApp = () => {
     return (
-        <div className='w-full h-auto pt-[180px]'>
+        <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Homy App</h2>
                 <Link href="https://www.figma.com/proto/Q8Hj1VlDqYiPw9rx6n1SvP/Visual-Prototyping-Smart-Home-App?page-id=66%3A2&node-id=331%3A6081&viewport=-378%2C-1110%2C0.05&scaling=scale-down&starting-point-node-id=331%3A6081&show-proto-sidebar=1" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
