@@ -12,7 +12,7 @@ const Navbar = () => {
                     </ul> 
                 </Link>
                 <div className='flex gap-4 text-zinc-600 hover:text-zinc-900 hover:pointer'>
-                    <Link href="/about" className='self-center'>About</Link>
+                    <Link href="/about" className='self-center hidden sm:block'>About</Link>
                     <Dropdown />
                 </div>
             </div>

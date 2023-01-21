@@ -32,7 +32,7 @@ export const About = () => {
                         <p className='text-ml font-medium group-hover:underline'>
                         Figma
                         </p>
-                        <p className='text-ml text-zinc-500'>
+                        <p className='text-sm text-zinc-500 sm:text-ml'>
                         The collaborative interface design tool
                         </p>
                     </div>
