@@ -12,7 +12,7 @@ export const Main = () => {
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2 flex flex-row'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER&thinsp;・&thinsp;</p>
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER&thinsp;・&thinsp;  </p>
                   <GMTTime /> 
                   <p className='text-sm text-zinc-500'>&nbsp; GMT</p>
               </div>
@@ -42,7 +42,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 
@@ -64,7 +64,7 @@ export const Main = () => {
                     Q4 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 
@@ -86,7 +86,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:underline'>
+                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 

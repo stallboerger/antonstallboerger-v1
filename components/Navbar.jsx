@@ -11,7 +11,7 @@ const Navbar = () => {
                         <li className='font-regular text-l list-none text-zinc-600'>Anton Stallbörger</li>
                     </ul> 
                 </Link>
-                <div className='flex gap-4 text-zinc-600 hover:text-zinc-900 hover:pointer'>
+                <div className='flex gap-4 text-zinc-500 hover:text-zinc-900 hover:pointer'>
                     <Link href="/about" className='self-center hidden sm:block'>About</Link>
                     <Dropdown />
                 </div>

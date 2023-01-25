@@ -23,13 +23,13 @@ export const About = () => {
                 <br />
                 <br />
                 <Carousel />
-                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:underline">Norm Architects</Link>.
+                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-4'>Tools I admire</h3>
-                <Link href="https://www.figma.com/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://www.figma.com/" className='  flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
                     <Image src="/assets/about/figma.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium group-hover:underline'>
+                        <p className='text-ml font-medium'>
                         Figma
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -37,10 +37,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://iconoir.com/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
                     <Image src="/assets/about/iconoir.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium group-hover:underline'>
+                        <p className='text-ml font-medium'>
                         Iconoir
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -48,10 +48,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://arc.net/" className=' group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
                     <Image src="/assets/about/arc.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium group-hover:underline'>
+                        <p className='text-ml font-medium'>
                         Arc Browser
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -59,10 +59,10 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://nextjs.org/" className='group flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4'>
+                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
                     <Image src="/assets/about/nextjs.png" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
                     <div className='self-center'>
-                        <p className='text-ml font-medium group-hover:underline'>
+                        <p className='text-ml font-medium'>
                         Next.js
                         </p>
                         <p className='text-ml text-zinc-500'>
@@ -71,11 +71,11 @@ export const About = () => {
                     </div>
                 </Link>
                 <Link href="https://www.curations.tech/" className='h-full mb-8 '>
-                <div className='flex h-fit text-zinc-500'>
-                    <p className='text-sm h-auto self-center hover:underline'>
+                <div className='flex h-fit text-zinc-500 group'>
+                    <p className='text-sm h-auto self-center group-hover:text-zinc-900'>
                       More stunning tools
                     </p> 
-                    <NavArrowRight className='text-xs self-center'/>
+                    <NavArrowRight className='text-xs self-center group-hover:text-zinc-900'/>
                   </div>
                 </Link>                
                 <Footer />
