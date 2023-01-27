@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link'
-import { GitHub, Iconoir, Instagram, Medal1St, Twitter, TwitterVerifiedBadge } from 'iconoir-react';
+import { GitHub, Iconoir, Instagram, Medal1St, Twitter, TwitterVerifiedBadge, GoogleDocs } from 'iconoir-react';
 
 export const Footer = () => {
     return (
@@ -18,6 +18,10 @@ export const Footer = () => {
                         <Link href="https://github.com/antonstallboerger" className="hover:text-purple-600 flex flex-row gap-1" target="_blank">
                             <GitHub className="text-xs"/>
                             <p className="text-sm">GitHub</p>
+                        </Link>
+                        <Link href="https://read.cv/antonsta" className="hover:text-orange-600 flex flex-row gap-1" target="_blank">
+                            <GoogleDocs className="text-xs"/>
+                            <p className="text-sm">CV</p>
                         </Link>
             </div>
             <p className="credits text-sm text-zinc-500 mb-6">&copy; Anton Stallbörger 2023. This website is hosted and deployed via <Link href='https://vercel.com/' target="_blank" className="hover:text-zinc-900">Vercel</Link>. 
