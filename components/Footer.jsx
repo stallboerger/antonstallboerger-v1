@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link'
-import { GitHub, Iconoir, Instagram, Medal1St, Twitter, TwitterVerifiedBadge, GoogleDocs } from 'iconoir-react';
+import { GitHub, Instagram, Twitter, GoogleDocs } from 'iconoir-react';
 
 export const Footer = () => {
     return (
