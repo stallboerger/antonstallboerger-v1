@@ -11,7 +11,7 @@ export const Curations = () => {
                 <h2 className='pb-6'>Curations</h2>
                 <Link href="https://www.curations.tech/" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
                     <Internet className="text-xs self-center"/>
-                    <p className="text-ml">Website</p>
+                    <p className="text-ml">Visit Curations</p>
                 </Link>
                 <p className='py-6'>
                 Curations is a website that offers a curated collection of stunning tools and website inspirations for free. The website was created with the goal of helping designers, developers, and everyone else discover new and innovative tools and ideas for their projects.

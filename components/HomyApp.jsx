@@ -11,7 +11,7 @@ export const HomyApp = () => {
                 <h2 className='pb-6'>Homy App</h2>
                 <Link href="https://www.figma.com/proto/Q8Hj1VlDqYiPw9rx6n1SvP/Visual-Prototyping-Smart-Home-App?page-id=66%3A2&node-id=331%3A6081&viewport=-378%2C-1110%2C0.05&scaling=scale-down&starting-point-node-id=331%3A6081&show-proto-sidebar=1" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
                     <SmartphoneDevice className="text-xs self-center"/>
-                    <p className="text-ml">Prototype</p>
+                    <p className="text-ml">View Prototype</p>
                 </Link>
                 <p className='py-6'>
                 Smart home technology has become increasingly popular in recent years, with a variety of devices and apps available to automate and control various aspects of a home. However, many of these solutions focus on convenience and luxury, rather than energy efficiency and accessibility. Homy is a smart home app concept that aims to address these issues by providing users with a simple and intuitive way to monitor and control their home&apos;s energy usage, as well as make their home more accessible for people with disabilities.
