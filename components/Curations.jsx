@@ -13,7 +13,7 @@ export const Curations = () => {
                     <Internet className="text-xs self-center"/>
                     <p className="text-ml">Visit Curations</p>
                 </Link>
-                <p className='py-6'>
+                <p className='py-10'>
                 Curations is a website that offers a curated collection of stunning tools and website inspirations for free. The website was created with the goal of helping designers, developers, and everyone else discover new and innovative tools and ideas for their projects.
                 <br />
                 <br />

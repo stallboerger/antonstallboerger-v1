@@ -106,7 +106,7 @@ export const Main = () => {
                 Q1 2023
                 </p>
               {/* </Link> */}
-              <p className='pb-6'>
+              <p className='pb-10'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
               <Footer />

@@ -13,7 +13,7 @@ export const UpsApp = () => {
                     <SmartphoneDevice className="text-xs self-center"/>
                     <p className="text-ml">View Prototype</p>
                 </Link>
-                <p className='py-6'>
+                <p className='py-10'>
                 The UPS app is a popular mobile application that allows users to track and manage their packages, schedule pick-ups, and access other UPS services on the go. However, the app had been criticized for its outdated design and lack of user-friendly features. As a result, I decided to undertake a redesign of the app to improve its user experience and functionality.
                 <br />
                 <br />

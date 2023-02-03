@@ -13,7 +13,7 @@ export const HomyApp = () => {
                     <SmartphoneDevice className="text-xs self-center"/>
                     <p className="text-ml">View Prototype</p>
                 </Link>
-                <p className='py-6'>
+                <p className='py-10'>
                 Smart home technology has become increasingly popular in recent years, with a variety of devices and apps available to automate and control various aspects of a home. However, many of these solutions focus on convenience and luxury, rather than energy efficiency and accessibility. Homy is a smart home app concept that aims to address these issues by providing users with a simple and intuitive way to monitor and control their home&apos;s energy usage, as well as make their home more accessible for people with disabilities.
                 <br />
                 <br />
