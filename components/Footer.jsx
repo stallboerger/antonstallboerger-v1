@@ -28,6 +28,7 @@ export const Footer = () => {
             Privacy-friendly Analytics by <Link href="https://vercel.com/analytics" target="_blank" className="hover:text-zinc-900">Vercel Analytics</Link>.</p>
             <div className="flex gap-4 text-zinc-500 text-sm">
                 <Link href='/about' className="hover:text-zinc-900">About</Link>
+                <Link href='/thoughts' className="hover:text-zinc-900">Thoughts</Link>
                 <Link href='/legalnotice' className="hover:text-zinc-900">Legal Notice</Link>
                 <Link href='/privacypolicy' className="hover:text-zinc-900">Privacy Policy</Link>
             </div>
