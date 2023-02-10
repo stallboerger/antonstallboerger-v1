@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { SmartphoneDevice } from 'iconoir-react'
+import { SmartphoneDevice, Internet } from 'iconoir-react'
 import Footer from './Footer'
 
 export const Boost = () => {
@@ -9,16 +9,18 @@ export const Boost = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Boost</h2>
-                <Link href="" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
-                    <SmartphoneDevice className="text-xs self-center"/>
-                    <p className="text-ml">View Prototype</p>
-                </Link>
-                <Link href="" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
-                    <SmartphoneDevice className="text-xs self-center"/>
-                    <p className="text-ml">View Landingpage</p>
-                </Link>
+                <div className='flex gap-2'>
+                    <Link href="https://www.figma.com/proto/tpBz0t3tighs62W4aAS6J5/Boost?page-id=381%3A101&node-id=651%3A440&viewport=172%2C299%2C0.09&scaling=scale-down&starting-point-node-id=651%3A440" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
+                        <SmartphoneDevice className="text-xs self-center"/>
+                        <p className="text-ml">View Prototype</p>
+                    </Link>
+                    <Link href="https://boost-three.vercel.app/index.html" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
+                        <Internet className="text-xs self-center"/>
+                        <p className="text-ml">View Landingpage</p>
+                    </Link>
+                </div>
                 <p className='py-10'>
-                Smart home technology has become increasingly popular in recent years, with a variety of devices and apps available to automate and control various aspects of a home. However, many of these solutions focus on convenience and luxury, rather than energy efficiency and accessibility. Homy is a smart home app concept that aims to address these issues by providing users with a simple and intuitive way to monitor and control their home&apos;s energy usage, as well as make their home more accessible for people with disabilities.
+                Boost is an innovative app and product designed to help people track their daily nutrient intake and make it easier for them to receive personalized nutrients in the form of a powder that can be easily dissolved in a glass of water. The product and app are designed to work seamlessly together to help users identify their nutrient deficiencies, understand their daily needs and receive personalized nutrient recommendations based on weather and step count.
                 <br />
                 <br />
                 <Image src="/assets/projects/homy_app.png" alt='' width="593" height="305" className='rounded-xl mb-2' priority='true'></Image>
