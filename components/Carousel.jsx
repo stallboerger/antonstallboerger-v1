@@ -5,11 +5,11 @@ import { NavArrowRight, NavArrowLeft } from 'iconoir-react'
 const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0)
   const images = [
-    '/assets/about/ausstellung.png',
-    '/assets/about/ausstellung2.png',
-    '/assets/about/norway.png',
-    '/assets/about/gray.png',
-    '/assets/about/ski.png'
+    '/assets/about/ausstellung.webp',
+    '/assets/about/ausstellung2.webp',
+    '/assets/about/norway.webp',
+    '/assets/about/gray.webp',
+    '/assets/about/ski.webp'
   ]
 
   const handlePreviousClick = () => {
