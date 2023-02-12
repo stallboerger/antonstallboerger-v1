@@ -29,7 +29,7 @@ export const Main = () => {
               </p>
             
               <Link href='/upsapp'>
-                <Image src="/assets/projects/ups_app.png" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/ups_app.webp" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm'>
@@ -51,7 +51,7 @@ export const Main = () => {
                 </div>
               </Link>
               <Link href="/curations">
-                <Image src="/assets/projects/curations.png" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/curations.webp" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm'>
@@ -73,7 +73,7 @@ export const Main = () => {
                 </div>
               </Link>
               <Link href="homyapp">
-                <Image src="/assets/projects/homy_app.png" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/homy_app.webp" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm'>
@@ -95,7 +95,7 @@ export const Main = () => {
                 </div>
               </Link>
               {/* <Link href="#"> */}
-                <Image src="/assets/projects/in_progress.png" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <Image src="/assets/projects/in_progress.webp" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <p className='text-sm'>
                 Work in Progress 
                 </p>
