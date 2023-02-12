@@ -18,6 +18,7 @@ export default function Document() {
         <meta name="description" content="Digital Product Designer and Developer" />
         <meta name="theme-color" content="#FFFFFF"/>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico"></link>
       </Head>
       <body>
         <Main />
