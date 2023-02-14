@@ -4,7 +4,10 @@ import localFont from '@next/font/local';
 import AnalyticsWrapper from '../components/analytics';
 
   export const metadata = {
-    title: 'Anton Stallbörger',
+    title: {
+        default: 'Anton Stallbörger',
+        template: '%s | Anton Stallbörger',
+    },
     robots: {
         index: true,
         follow: true,
@@ -22,7 +25,10 @@ import AnalyticsWrapper from '../components/analytics';
     },
     icons: {
         shortcut: '/favicon.ico',
-    }
+    },
+    verifications: {
+        google: 'stqJtLv8IK8j4XXD3FJI8PnEPdMd2Kb-BLJJusa',
+    },
   };
   
   export default function RootLayout({
@@ -39,4 +45,4 @@ import AnalyticsWrapper from '../components/analytics';
       </html>
     );
   }
-  
+   
