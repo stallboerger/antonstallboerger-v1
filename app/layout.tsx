@@ -1,6 +1,5 @@
 import { Analytics } from '@vercel/analytics/react';
 import './global.css';
-import localFont from '@next/font/local';
 import AnalyticsWrapper from '../components/analytics';
 
   export const metadata = {

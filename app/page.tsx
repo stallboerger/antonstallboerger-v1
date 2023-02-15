@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { NavArrowRight } from 'iconoir-react';
 import Link from 'next/link';
-import GMTTime from './GMTTime';
+import GMTTime from 'components/gmtTime';
 
 export const metadata = {
     description: 'Digital Product Designer and Developer',
