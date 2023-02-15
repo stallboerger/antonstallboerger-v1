@@ -70,6 +70,17 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
+                <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                    <Image src="/assets/about/raycast.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                    <div className='self-center'>
+                        <p className='text-ml font-medium'>
+                        Raycast
+                        </p>
+                        <p className='text-ml text-zinc-500'>
+                        Blazingly fast, totally extendable launcher
+                        </p>
+                    </div>
+                </Link>
                 <Link href="https://www.curations.tech/" className='h-full mb-8 '>
                 <div className='flex h-fit text-zinc-500 group'>
                     <p className='text-sm h-auto self-center group-hover:text-zinc-900'>
