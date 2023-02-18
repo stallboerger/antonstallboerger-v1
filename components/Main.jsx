@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 import GMTTime from './GMTTime';
-import Carousel from './Carousel';
 import { NavArrowRight } from 'iconoir-react';
 
 export const Main = () => {

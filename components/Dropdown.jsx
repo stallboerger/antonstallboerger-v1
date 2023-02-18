@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import CopyToClipboardButton from './CopyToClipboard'
-import { Mail, Copy, Twitter } from 'iconoir-react'
+import { Mail, Twitter } from 'iconoir-react'
 import Link from 'next/link'
 
 function classNames(...classes) {
@@ -30,7 +30,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="mailto:anton@stallboerger.de"> 
+                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="mailto:anton@stallboerger.de"> 
                   <Mail className='self-center text-xs'/>
                   <p className='text-sm'>
                     Compose Email
@@ -42,7 +42,7 @@ export default function Example() {
             <CopyToClipboardButton />
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
+                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
                   <Twitter className='self-center text-xs'/>
                   <p className='text-sm'>
                     Twitter

@@ -17,7 +17,7 @@
     "@vercel/og": "^0.0.19",
     "i": "^0.3.7",
     "iconoir": "^5.3.2",
-    "iconoir-react": "^5.4.0",
+    "iconoir-react": "^5.5.2",
     "next": "^13.0.0",
     "npm": "^9.2.0",
     "react": "^18.2.0",
