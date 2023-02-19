@@ -13,7 +13,7 @@ export default function AntonDropdown() {
       <div>
         <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm text-zinc-500 hover:text-zinc-900 gap-0.5 font-medium hover:bg-zinc-100 rounded-full">
           Explore
-          <NavArrowDown className='self-center text-sm stroke-2'/>
+          <NavArrowDown className='self-center text-xs stroke-2'/>
         </Menu.Button>
       </div>
 
@@ -30,9 +30,9 @@ export default function AntonDropdown() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/about"> 
-                  <User className='self-center text-xs'/>
-                  <p className='text-sm'>
+                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 mx-1 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/about"> 
+                  <User className='self-center text-xs stroke-2'/>
+                  <p className='text-sm font-medium'>
                     About
                   </p>
                 </Link>
@@ -40,24 +40,14 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/thoughts"> 
-                  <Brain className='self-center text-xs'/>
-                  <p className='text-sm'>
+                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 mx-1 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/thoughts"> 
+                  <Brain className='self-center text-xs stroke-2'/>
+                  <p className='text-sm font-medium'>
                     Thoughts
                   </p>
                 </Link>
               )}
             </Menu.Item>
-            {/* <Menu.Item>
-              {({ active }) => (
-                <Link className='text-zinc-700 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
-                  <BookmarkEmpty className='self-center text-xs'/>
-                  <p className='text-sm'>
-                    Bookmarks
-                  </p>
-                </Link>
-              )}
-            </Menu.Item> */}
           </div>
         </Menu.Items>
       </Transition>
