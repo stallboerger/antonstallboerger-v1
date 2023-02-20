@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { Brain, User, BookmarkEmpty, NavArrowDown } from 'iconoir-react';
+import { Brain, User, BookmarkEmpty, NavArrowDown, QuestionMark } from 'iconoir-react';
 import Link from 'next/link';
 
 function classNames(...classes) {
@@ -8,9 +8,26 @@ function classNames(...classes) {
 }
 
 export default function AntonDropdown() {
+  const [open, setOpen] = useState(false);
+  const [timeoutId, setTimeoutId] = useState(null);
+
+  function handleMouseEnter() {
+    setOpen(true);
+    clearTimeout(timeoutId);
+  }
+
+  function handleMouseLeave() {
+    setTimeoutId(setTimeout(() => {
+      setOpen(false);
+    }, 100));
+  }
+
   return (
     <Menu as="div" className="relative inline-block text-left">
-      <div>
+      <div
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm text-zinc-500 hover:text-zinc-900 gap-0.5 font-medium hover:bg-zinc-100 rounded-full">
           Explore
           <NavArrowDown className='self-center text-xs stroke-2'/>
@@ -18,6 +35,7 @@ export default function AntonDropdown() {
       </div>
 
       <Transition
+        show={open}
         as={Fragment}
         enter="transition ease-out duration-100"
         enterFrom="transform opacity-0 scale-95"
@@ -26,11 +44,15 @@ export default function AntonDropdown() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute left-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-md bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
+        <Menu.Items
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          className="absolute left-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-md bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+        >
+          <div className="py-2">
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-600 hover:text-zinc-900 px-2 py-2 mx-1 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/about"> 
+                <Link className='text-zinc-900 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/about"> 
                   <User className='self-center text-xs stroke-2'/>
                   <p className='text-sm font-medium'>
                     About
@@ -40,7 +62,7 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-600 hover:text-zinc-900 px-2 py-2 mx-1 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/thoughts"> 
+                <Link className='text-zinc-900 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/thoughts"> 
                   <Brain className='self-center text-xs stroke-2'/>
                   <p className='text-sm font-medium'>
                     Thoughts
@@ -50,19 +72,17 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-600 hover:text-zinc-900 px-2 py-2 mx-1 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href=""> 
-                  <BookmarkEmpty className='self-center text-xs stroke-2'/>
-                  <p className='text-sm font-medium'>
-                    Bookmarks
-                  </p>
+                <Link className='text-zinc-300 hover:text-zinc-300 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 gap-2' href="">
+                    <QuestionMark className='self-center text-xs stroke-2'/>
+                    <p className='text-sm font-medium'>
+                        Coming soon
+                    </p>
                 </Link>
-              )}
+            )}
             </Menu.Item>
-          </div>
+        </div>
         </Menu.Items>
-      </Transition>
+        </Transition>
     </Menu>
-  )
+    )
 }
-
-
