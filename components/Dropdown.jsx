@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-50">
+        <Menu.Button className="inline-flex items-center w-full justify-center rounded-full border-2 border-zinc-200 hover:border-zinc-900 bg-white px-4 py-2 text-l font-medium text-zinc-900 text-sm">
           Contact
         </Menu.Button>
       </div>
@@ -26,14 +26,14 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-10 mt-4 w-56 origin-top-right divide-y divide-zinc-100 rounded-md bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
+        <Menu.Items className="absolute right-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-md bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="py-2">
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="mailto:anton@stallboerger.de"> 
-                  <Mail className='self-center text-xs'/>
-                  <p className='text-sm'>
-                    Compose Email
+                <Link className='text-zinc-900 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="mailto:anton@stallboerger.de"> 
+                  <Mail className='self-center text-xs stroke-2'/>
+                  <p className='text-sm font-medium'>
+                    Compose
                   </p>
                 </Link>
                 
@@ -42,9 +42,9 @@ export default function Example() {
             <CopyToClipboardButton />
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-700 hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
-                  <Twitter className='self-center text-xs'/>
-                  <p className='text-sm'>
+                <Link className='text-zinc-900 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="https://twitter.com/AntonStalli"> 
+                  <Twitter className='self-center text-xs stroke-2'/>
+                  <p className='text-sm font-medium'>
                     Twitter
                   </p>
                 </Link>

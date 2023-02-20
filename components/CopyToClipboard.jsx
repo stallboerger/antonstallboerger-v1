@@ -3,7 +3,7 @@ import { Copy } from 'iconoir-react';
 
 function CopyToClipboardButton() {
 
-  const [text, setText] = useState('Copy to Clipboard');
+  const [text, setText] = useState('Copy');
 
   function handleClick() {
     // Create a temporary text field
@@ -28,14 +28,14 @@ function CopyToClipboardButton() {
 
     // Change the text back to the original text after one second
     setTimeout(() => {
-      setText('Copy to Clipboard');
+      setText('Copy');
     }, 1000);
   }
 
   return (
-    <a onClick={handleClick} className="text-zinc-700  hover:text-zinc-900 px-4 py-2 text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2 cursor-pointer">
-      <Copy className='text-xs'/>
-      <p className='text-sm'>
+    <a onClick={handleClick} className="text-zinc-900 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2 cursor-pointer">
+      <Copy className='text-xs stroke-2'/>
+      <p className='text-sm font-medium'>
         {text}
       </p>
     </a>

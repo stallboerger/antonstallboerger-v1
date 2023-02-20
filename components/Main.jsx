@@ -31,7 +31,7 @@ export const Main = () => {
                 <Image src="/assets/projects/ups_app.webp" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
-                    <p className='text-sm'>
+                    <p className='text-sm font-medium'>
                     Package App
                     </p>
                     <p className='text-sm text-zinc-500'>
@@ -53,7 +53,7 @@ export const Main = () => {
                 <Image src="/assets/projects/curations.webp" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
-                    <p className='text-sm'>
+                    <p className='text-sm font-medium'>
                     Curations
                     </p>
                     <p className='text-sm text-zinc-500'>
@@ -75,7 +75,7 @@ export const Main = () => {
                 <Image src="/assets/projects/homy_app.webp" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
                 <div className='flex pb-6 justify-between'>
                   <div>
-                    <p className='text-sm'>
+                    <p className='text-sm font-medium'>
                     Homy
                     </p>
                     <p className='text-sm text-zinc-500'>
@@ -95,7 +95,7 @@ export const Main = () => {
               </Link>
               {/* <Link href="#"> */}
                 <Image src="/assets/projects/in_progress.webp" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
-                <p className='text-sm'>
+                <p className='text-sm font-medium'>
                 Work in Progress 
                 </p>
                 <p className='text-sm text-zinc-500'>
