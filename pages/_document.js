@@ -20,7 +20,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.ico"></link>
       </Head>
-      <body>
+      <body className='selection:bg-zinc-200 selection:text-zinc-900'>
         <Main />
         <NextScript />
       </body>

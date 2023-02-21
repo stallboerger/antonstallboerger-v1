@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import {Internet} from 'iconoir-react'
+import {Internet, User} from 'iconoir-react'
 import Footer from './Footer'
 
 export const Curations = () => {
@@ -9,11 +9,31 @@ export const Curations = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Curations</h2>
-                <Link href="https://www.curations.tech/" className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
-                    <Internet className="text-xs self-center"/>
-                    <p className="text-ml">Visit Curations</p>
-                </Link>
-                <p className='py-10'>
+                <div className='flex gap-4'>
+                    <Link 
+                        href="https://www.curations.tech/" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank">
+                        <Internet className="text-xs self-center stroke-2"/>
+                        <p className="text-sm font-medium self-center">Visit Curations</p>
+                    </Link>
+                    <Link 
+                        href="https://designwithtech.com/" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank">
+                        <User className="text-xs self-center stroke-2"/>
+                        <p className="text-sm font-medium self-center">Florian</p>
+                    </Link>
+                    <Link 
+                        href="https://www.nilseller.com/" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank">
+                        <User className="text-xs self-center stroke-2"/>
+                        <p className="text-sm font-medium self-center">Nils</p>
+                    </Link>
+                </div>
+                
+                <p className='pb-10 pt-6'>
                 Curations is a website that offers a curated collection of stunning tools and website inspirations for free. The website was created with the goal of helping designers, developers, and everyone else discover new and innovative tools and ideas for their projects.
                 <br />
                 <br />

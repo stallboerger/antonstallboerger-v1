@@ -26,9 +26,45 @@ export const Main = () => {
               <p className='pb-6'>
               Here are some of my curated works I&apos;ve done in the past.
               </p>
-            
-              <Link href='/upsapp'>
-                <Image src="/assets/projects/ups_app.webp" alt='UPS App Redesign' width="593" height="305" priority='true' className='rounded-xl mb-2'></Image>
+
+              <Link href="boost">
+                <Image 
+                  src="/assets/projects/tinywow_4B3A8053_14337793.webp" 
+                  alt='In Progress' 
+                  width="593" 
+                  height="305" 
+                  className='rounded-xl mb-2 max-h-[315px] object-cover'
+                />
+                <div className='flex pb-6 justify-between'>
+                  <div>
+                    <p className='text-sm font-medium'>
+                    Boost
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Personalized Nutrients
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Q1 2023
+                    </p>
+                  </div>
+                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center'>
+                      Learn more
+                    </p> 
+                    <NavArrowRight className='text-xs self-center group-hover:translate-x-0.5'/>
+                  </div>
+                </div>
+                
+              </Link>
+              <Link href='/upsapp' className='group'>
+                <Image 
+                  src="/assets/projects/ups_app.webp" 
+                  alt='UPS App Redesign' 
+                  width="593" 
+                  height="305" 
+                  priority='true' 
+                  className='rounded-xl mb-2'
+                />
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm font-medium'>
@@ -45,12 +81,18 @@ export const Main = () => {
                     <p className='text-sm h-auto self-center'>
                       Learn more
                     </p> 
-                    <NavArrowRight className='text-xs self-center'/>
+                    <NavArrowRight className='text-xs self-center group-hover:translate-x-0.5'/>
                   </div>
                 </div>
               </Link>
               <Link href="/curations">
-                <Image src="/assets/projects/curations.webp" alt='Curations' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <Image 
+                  src="/assets/projects/curations.webp"  
+                  alt='Curations' 
+                  width="593" 
+                  height="305" 
+                  className='rounded-xl mb-2'
+                />
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm font-medium'>
@@ -72,7 +114,13 @@ export const Main = () => {
                 </div>
               </Link>
               <Link href="homyapp">
-                <Image src="/assets/projects/homy_app.webp" alt='Homy Energy Smart Home App' width="593" height="305" className='rounded-xl mb-2'></Image>
+                <Image 
+                  src="/assets/projects/homy_app.webp" 
+                  alt='Homy Energy Smart Home App' 
+                  width="593" 
+                  height="305" 
+                  className='rounded-xl mb-2'
+                />
                 <div className='flex pb-6 justify-between'>
                   <div>
                     <p className='text-sm font-medium'>
@@ -93,18 +141,7 @@ export const Main = () => {
                   </div>
                 </div>
               </Link>
-              {/* <Link href="#"> */}
-                <Image src="/assets/projects/in_progress.webp" alt='In Progress' width="593" height="305" className='rounded-xl mb-2'></Image>
-                <p className='text-sm font-medium'>
-                Work in Progress 
-                </p>
-                <p className='text-sm text-zinc-500'>
-                Coming Soon
-                </p>
-                <p className='text-sm pb-6 text-zinc-500'>
-                Q1 2023
-                </p>
-              {/* </Link> */}
+              
               <p className='pb-10'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>

@@ -14,7 +14,14 @@ export const About = () => {
                 “Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do” - Virgil Abloh
                 <br />
                 <br />
-                <Image src="/assets/about/me.webp" alt='Anton Stallbörger' width="593" height="340" className='rounded-xl mb-2 max-h-[340px] object-cover' priority='true'></Image>
+                <Image 
+                    src="/assets/about/me.webp" 
+                    alt='Anton Stallbörger' 
+                    width="593" 
+                    height="340" 
+                    className='rounded-xl mb-2 max-h-[340px] object-cover' 
+                    priority='true'
+                />
                 <br />
                 I am a passionate designer and developer who is driven by a love for great, high-quality and thoughtful design. Design is an integral part of my everyday life, and I believe that it has the power to shape and improve the world around us.
                 <br />
@@ -26,8 +33,14 @@ export const About = () => {
                 My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-4'>Tools I admire</h3>
-                <Link href="https://www.figma.com/" className='  flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
-                    <Image src="/assets/about/figma.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                    <Image 
+                        src="/assets/about/figma.webp" 
+                        alt="/" 
+                        width="50" 
+                        height="50" 
+                        className='self-center rounded-full'
+                    />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
                         Figma
@@ -38,7 +51,13 @@ export const About = () => {
                     </div>
                 </Link>
                 <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
-                    <Image src="/assets/about/iconoir.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                    <Image 
+                        src="/assets/about/iconoir.webp" 
+                        alt="/" 
+                        width="50" 
+                        height="50" 
+                        className='self-center rounded-full'
+                    />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
                         Iconoir
@@ -49,7 +68,13 @@ export const About = () => {
                     </div>
                 </Link>
                 <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
-                    <Image src="/assets/about/arc.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                    <Image 
+                        src="/assets/about/arc.webp" 
+                        alt="/" 
+                        width="50" 
+                        height="50" 
+                        className='self-center rounded-full'
+                    />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
                         Arc Browser
@@ -60,7 +85,13 @@ export const About = () => {
                     </div>
                 </Link>
                 <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
-                    <Image src="/assets/about/nextjs.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                    <Image 
+                        src="/assets/about/nextjs.webp" 
+                        alt="/" 
+                        width="50" 
+                        height="50" 
+                        className='self-center rounded-full'
+                    />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
                         Next.js
@@ -71,7 +102,13 @@ export const About = () => {
                     </div>
                 </Link>
                 <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
-                    <Image src="/assets/about/raycast.webp" alt="/" width="50" height="50" className='self-center rounded-full'></Image>
+                    <Image
+                        src="/assets/about/raycast.webp" 
+                        alt="/" 
+                        width="50" 
+                        height="50" 
+                        className='self-center rounded-full'
+                    />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
                         Raycast

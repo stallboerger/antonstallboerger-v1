@@ -47,7 +47,7 @@ export default function AntonDropdown() {
         <Menu.Items
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className="absolute right-0 sm:left-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-md bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="absolute right-0 sm:left-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-xl bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
         >
           <div className="py-2">
             <Menu.Item>

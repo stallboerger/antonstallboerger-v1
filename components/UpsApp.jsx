@@ -10,10 +10,10 @@ export const UpsApp = () => {
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>UPS App Redesign</h2>
                 <Link href="https://www.figma.com/proto/3m2XkVbguuGwNYfWknrFg4/UPS-App-Redesign?page-id=138%3A18&node-id=707%3A12467&viewport=113%2C371%2C0.03&scaling=scale-down&starting-point-node-id=707%3A12467" className="hover:text-zinc-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" target="_blank">
-                    <SmartphoneDevice className="text-xs self-center"/>
-                    <p className="text-ml">View Prototype</p>
+                    <SmartphoneDevice className="text-xs self-center stroke-2"/>
+                    <p className="text-sm font-medium self-center">View Prototype</p>
                 </Link>
-                <p className='py-10'>
+                <p className='pb-10 pt-6'>
                 The UPS app is a popular mobile application that allows users to track and manage their packages, schedule pick-ups, and access other UPS services on the go. However, the app had been criticized for its outdated design and lack of user-friendly features. As a result, I decided to undertake a redesign of the app to improve its user experience and functionality.
                 <br />
                 <br />
