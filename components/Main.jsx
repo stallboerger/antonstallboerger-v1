@@ -29,11 +29,11 @@ export const Main = () => {
 
               <Link href="boost">
                 <Image 
-                  src="/assets/projects/tinywow_4B3A8053_14337793.webp" 
-                  alt='In Progress' 
+                  src="/assets/projects/boost_cover.webp" 
+                  alt='Boost' 
                   width="593" 
                   height="305" 
-                  className='rounded-xl mb-2 max-h-[315px] object-cover'
+                  className='rounded-xl mb-2 object-cover'
                 />
                 <div className='flex pb-6 justify-between'>
                   <div>
