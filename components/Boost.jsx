@@ -12,21 +12,21 @@ export const Boost = () => {
                 <div className='flex flex-wrap gap-4'>
                     <Link 
                         href="https://www.figma.com/proto/tpBz0t3tighs62W4aAS6J5/Boost?page-id=381%3A101&node-id=651%3A440&viewport=172%2C299%2C0.09&scaling=scale-down&starting-point-node-id=651%3A440" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <SmartphoneDevice className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">View Prototype</p>
                     </Link>
                     <Link 
                         href="https://boost-three.vercel.app/index.html" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <Internet className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">View Landingpage</p>
                     </Link>
                     <Link 
                         href="https://designwithtech.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <User className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">Florian</p>
@@ -81,7 +81,6 @@ export const Boost = () => {
                     width="593" 
                     height="305" 
                     className='rounded-xl mb-2 max-h-[340px]' 
-                    priority='true'
                 />
                 <br />
                 <h3 className='text-2xl pb-2'>Branding</h3>
@@ -94,7 +93,6 @@ export const Boost = () => {
                     width="593" 
                     height="305" 
                     className='rounded-xl mb-2 max-h-[340px]' 
-                    priority='true'
                 />
                 </p>
                 <Footer/>

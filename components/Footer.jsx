@@ -26,7 +26,7 @@ export const Footer = () => {
             </div>
             <p className="credits text-sm text-zinc-500 mb-6">&copy; Anton Stallbörger 2023. This website is hosted and deployed via <Link href='https://vercel.com/' target="_blank" className="hover:text-zinc-900">Vercel</Link>. 
             Privacy-friendly Analytics by <Link href="https://vercel.com/analytics" target="_blank" className="hover:text-zinc-900">Vercel Analytics</Link>.</p>
-            <div className="flex gap-8 text-zinc-500 text-sm">
+            <div className="flex justify-between gap-8 text-zinc-500 text-sm">
                 <div className="flex gap-4">
                     <Link href='/about' className="hover:text-zinc-900">About</Link>
                     <Link href='/thoughts' className="hover:text-zinc-900">Thoughts</Link>
