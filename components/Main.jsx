@@ -142,9 +142,10 @@ export const Main = () => {
                 </div>
               </Link>
               
-              <p className='pb-10'>
+              <p className='pb-4'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
+              <a href="mailto:anton@stallboerger.de" className='hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border border-zinc-300 bg-white px-2 py-1 text-l font-regular text-zinc-700 hover:bg-zinc-900 hover:border-zinc-900 gap-2 mb-10'>Get in touch</a>
               <Footer />
             </div>
         </div> 
