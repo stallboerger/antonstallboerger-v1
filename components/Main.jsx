@@ -56,6 +56,34 @@ export const Main = () => {
                 </div>
                 
               </Link>
+              <Link href="/curations">
+                <Image 
+                  src="/assets/projects/curations.webp"  
+                  alt='Curations' 
+                  width="593" 
+                  height="305" 
+                  className='rounded-xl mb-2'
+                />
+                <div className='flex pb-6 justify-between'>
+                  <div>
+                    <p className='text-sm font-medium'>
+                    Curations
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Curated Collection of Tools
+                    </p>
+                    <p className='text-sm text-zinc-500'>
+                    Q4 2022
+                    </p>
+                  </div>
+                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center'>
+                      Learn more
+                    </p> 
+                    <NavArrowRight className='text-xs self-center'/>
+                  </div>
+                </div>
+              </Link>
               <Link href='/upsapp' className='group'>
                 <Image 
                   src="/assets/projects/ups_app.webp" 
@@ -82,34 +110,6 @@ export const Main = () => {
                       Learn more
                     </p> 
                     <NavArrowRight className='text-xs self-center group-hover:translate-x-0.5'/>
-                  </div>
-                </div>
-              </Link>
-              <Link href="/curations">
-                <Image 
-                  src="/assets/projects/curations.webp"  
-                  alt='Curations' 
-                  width="593" 
-                  height="305" 
-                  className='rounded-xl mb-2'
-                />
-                <div className='flex pb-6 justify-between'>
-                  <div>
-                    <p className='text-sm font-medium'>
-                    Curations
-                    </p>
-                    <p className='text-sm text-zinc-500'>
-                    Curated Collection of Tools
-                    </p>
-                    <p className='text-sm text-zinc-500'>
-                    Q4 2022
-                    </p>
-                  </div>
-                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
-                    <p className='text-sm h-auto self-center'>
-                      Learn more
-                    </p> 
-                    <NavArrowRight className='text-xs self-center'/>
                   </div>
                 </div>
               </Link>
