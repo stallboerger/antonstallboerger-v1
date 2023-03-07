@@ -33,7 +33,7 @@ export const About = () => {
                 My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-4'>Tools I admire</h3>
-                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/figma.webp" 
                         alt="/" 
@@ -50,7 +50,7 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/iconoir.webp" 
                         alt="/" 
@@ -67,7 +67,7 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/arc.webp" 
                         alt="/" 
@@ -84,7 +84,7 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/nextjs.webp" 
                         alt="/" 
@@ -101,7 +101,7 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:bg-zinc-200'>
+                <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image
                         src="/assets/about/raycast.webp" 
                         alt="/" 
@@ -120,10 +120,10 @@ export const About = () => {
                 </Link>
                 <Link href="https://www.curations.tech/" className='h-full mb-8 '>
                 <div className='flex h-fit text-zinc-500 group'>
-                    <p className='text-sm h-auto self-center group-hover:text-zinc-900'>
+                    <p className='text-sm font-medium h-auto self-center group-hover:text-zinc-900'>
                       More stunning tools
                     </p> 
-                    <NavArrowRight className='text-xs self-center group-hover:text-zinc-900'/>
+                    <NavArrowRight className='text-xs stroke-2 self-center group-hover:text-zinc-900 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </Link>                
                 <Footer />

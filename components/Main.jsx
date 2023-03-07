@@ -27,13 +27,13 @@ export const Main = () => {
               Here are some of my curated works I&apos;ve done in the past.
               </p>
 
-              <Link href="boost">
+              <Link href="boost" className='group'>
                 <Image 
                   src="/assets/projects/boost_cover.webp" 
                   alt='Boost' 
                   width="593" 
                   height="305" 
-                  className='rounded-xl mb-2 object-cover'
+                  className='rounded-xl mb-2 object-cover group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                   priority="true"
                 />
                 <div className='flex pb-6 justify-between'>
@@ -48,22 +48,22 @@ export const Main = () => {
                     Q1 2023
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
-                    <p className='text-sm h-auto self-center'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
-                    <NavArrowRight className='text-xs self-center group-hover:translate-x-0.5'/>
+                    <NavArrowRight className='text-xs self-center stroke-2 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </div>
                 
               </Link>
-              <Link href="/curations">
+              <Link href="/curations" className='group'>
                 <Image 
                   src="/assets/projects/curations.webp"  
                   alt='Curations' 
                   width="593" 
                   height="305" 
-                  className='rounded-xl mb-2'
+                  className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
                 <div className='flex pb-6 justify-between'>
                   <div>
@@ -77,11 +77,11 @@ export const Main = () => {
                     Q4 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
-                    <p className='text-sm h-auto self-center'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
-                    <NavArrowRight className='text-xs self-center'/>
+                    <NavArrowRight className='text-xs stroke-2 self-center group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </div>
               </Link>
@@ -92,7 +92,7 @@ export const Main = () => {
                   width="593" 
                   height="305" 
                   priority='true' 
-                  className='rounded-xl mb-2'
+                  className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
                 <div className='flex pb-6 justify-between'>
                   <div>
@@ -106,21 +106,21 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
-                    <p className='text-sm h-auto self-center'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
-                    <NavArrowRight className='text-xs self-center group-hover:translate-x-0.5'/>
+                    <NavArrowRight className='text-xs self-center stroke-2 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </div>
               </Link>
-              <Link href="homyapp">
+              <Link href="homyapp" className='group'>
                 <Image 
                   src="/assets/projects/homy_app.webp" 
                   alt='Homy Energy Smart Home App' 
                   width="593" 
                   height="305" 
-                  className='rounded-xl mb-2'
+                  className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
                 <div className='flex pb-6 justify-between'>
                   <div>
@@ -134,11 +134,11 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 hover:text-zinc-900'>
-                    <p className='text-sm h-auto self-center'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                    <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
-                    <NavArrowRight className='text-xs self-center'/>
+                    <NavArrowRight className='text-xs self-center stroke-2 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </div>
               </Link>
