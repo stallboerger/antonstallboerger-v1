@@ -40,3 +40,17 @@
     @apply text-lg sm:text-base 
   }
 }
+
+.expandable {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show before truncating */
+  -webkit-box-orient: vertical;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.expandable.expand {
+  -webkit-line-clamp: unset; /* remove the line clamp when expanded */
+  max-height: none; /* remove the maximum height when expanded */
+}
