@@ -29,7 +29,7 @@ export const Main = () => {
 
               <Link href="boost" className='group'>
                 <Image 
-                  src="/assets/projects/boost_cover.webp" 
+                  src="/assets/projects/tinywow_mockup_boost1_14337527.webp" 
                   alt='Boost' 
                   width="593" 
                   height="305" 

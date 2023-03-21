@@ -54,7 +54,7 @@ export const Boost = () => {
                     alt='Boost App Onboarding' 
                     width="593" 
                     height="305" 
-                    className='rounded-xl mb-2 max-h-[340px]' 
+                    className='rounded-xl mb-6 max-h-[340px]' 
                     priority='true'
                 />
                 <br />
