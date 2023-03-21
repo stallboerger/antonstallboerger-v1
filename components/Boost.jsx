@@ -41,7 +41,7 @@ export const Boost = () => {
                     alt='Device with Boost app and Packaging' 
                     width="593" 
                     height="305" 
-                    className='rounded-xl mb-2 max-h-[340px]' 
+                    className='rounded-xl mb-6 max-h-[340px]' 
                     priority='true'
                 />
                 <br />
@@ -67,7 +67,7 @@ export const Boost = () => {
                     alt='Boost App Mockup' 
                     width="593" 
                     height="305" 
-                    className='rounded-xl mb-2 max-h-[340px]' 
+                    className='rounded-xl mb-6 max-h-[340px]' 
                     priority='true'
                 />
                 <br />
@@ -80,7 +80,7 @@ export const Boost = () => {
                     alt='Boost Dispenser Device' 
                     width="593" 
                     height="305" 
-                    className='rounded-xl mb-2 max-h-[340px]' 
+                    className='rounded-xl mb-6 max-h-[340px]' 
                 />
                 <br />
                 <h3 className='text-2xl pb-2'>Branding</h3>
@@ -92,7 +92,7 @@ export const Boost = () => {
                     alt='Boost Packaging Mockup' 
                     width="593" 
                     height="305" 
-                    className='rounded-xl mb-2 max-h-[340px]' 
+                    className='rounded-xl mb-6 max-h-[340px]' 
                 />
                 </p>
                 <Footer/>
