@@ -10,7 +10,7 @@ export const ThoughtsPlus = () => {
                 <div className=''>
                     <Image src="/assets/thoughts/IMG_6251.JPG" alt='Anton Stallbörger Quality' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
                     <h4 className='mb-2 mt-6 text-xl'>The value of true friendship</h4>
-                    <p className='mb-6'>
+                    <p className='mb-6 leading-relaxed'>
                     Vor ein paar Jahren hat das alles für mich gar kein Sinn mehr gemacht. Irgendwie versuchen durch den Tag zu kommen ohne mal wieder in Tränen zusammen zu brechen. Niemanden zu haben mit dem man über seine Gefühle und Ängste reden kann ist die pure Zerstörung von innen heraus. 
                     <br />
                     <br />

@@ -10,7 +10,7 @@ export const Thoughts = () => {
                 <div className=''>
                     <Image src="/assets/thoughts/recyclingmoebel-iittala-raami-recycelt-jpg--71872-.webp" alt='Anton Stallbörger Quality' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
                     <h4 className='mb-2 text-xl'>Quality</h4>
-                    <p className=''>
+                    <p className='leading-relaxed'>
                     In this fast-moving and demanding world, we often get swept away by the temptation of affordability and comfort. It is natural to desire the maximum value for our money, but unfortunately, this pursuit can lead us to compromise on quality.
                     <br />
                     <br />
@@ -24,7 +24,7 @@ export const Thoughts = () => {
                 <div className='mb-10'>                
                     <Image src="/assets/thoughts/life.webp" alt='Anton Stallbörger Life' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
                     <h4 className='mb-2 text-xl'>Life&apos;s Journey</h4>
-                    <p className=''>
+                    <p className='leading-relaxed'>
                     As we wander through the void of life, it&apos;s important to remember that we are not alone in our journey. Our experiences, both good and bad, shape us into the person we are and will become. It&apos;s up to us to embrace them and use them to our advantage, to grow and evolve. The path may not always be clear, but it is through adversity and uncertainty that we find strength and purpose. So let us not fear the unknown, but instead embrace it as an opportunity to discover our true selves and what truly matters in life.
                     </p>
                 </div>
