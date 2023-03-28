@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import React from 'react';
-import Colophon from '../components/colophon';
+import Colophon from '../components/Colophon';
 
 export default function Home() {
   return (
