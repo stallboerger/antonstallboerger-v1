@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { Brain, User, BookmarkEmpty, NavArrowDown, QuestionMark } from 'iconoir-react';
+import { Brain, User, BookmarkEmpty, NavArrowDown, QuestionMark, Arcade } from 'iconoir-react';
 import Link from 'next/link';
 
 function classNames(...classes) {
@@ -47,7 +47,7 @@ export default function AntonDropdown() {
         <Menu.Items
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className="absolute right-0 sm:left-0 z-10 mt-4 w-40 origin-top-right divide-y divide-zinc-100 rounded-xl bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="absolute right-0 sm:left-0 z-10 mt-4 w-fit origin-top-right divide-y divide-zinc-100 rounded-xl bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
         >
           <div className="py-2">
             <Menu.Item>
@@ -72,6 +72,19 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
+                <Link className='text-zinc-900 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/playground"> 
+                  <Arcade className='self-center text-xs stroke-2'/>
+                  <p className='text-sm font-medium'>
+                    Playground
+                  </p>
+                  <p className='text-xs self-center text-blue-500 border-2 border-blue-200 rounded-full py-0 px-1 font-medium'>
+                    New
+                  </p>
+                </Link>
+              )}
+            </Menu.Item>
+            {/* <Menu.Item>
+              {({ active }) => (
                 <Link className='text-zinc-300 hover:text-zinc-300 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 gap-2' href="">
                     <QuestionMark className='self-center text-xs stroke-2'/>
                     <p className='text-sm font-medium'>
@@ -79,7 +92,7 @@ export default function AntonDropdown() {
                     </p>
                 </Link>
             )}
-            </Menu.Item>
+            </Menu.Item> */}
         </div>
         </Menu.Items>
         </Transition>
