@@ -23,7 +23,7 @@ export const Footer = () => {
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900">Information</p>
-                        <Link href='/colophone' className="hover:text-zinc-900">Colophone</Link>
+                        <Link href='/colophon' className="hover:text-zinc-900">Colophon</Link>
                         <Link href='/legalnotice' className="hover:text-zinc-900">Legal Notice</Link>
                         <Link href='/privacypolicy' className="hover:text-zinc-900">Privacy Policy</Link>
                     </div>

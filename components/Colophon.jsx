@@ -3,11 +3,11 @@ import Footer from './Footer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const Colophone = () => {
+export const Colophon = () => {
     return (
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-                <h2 className='pb-6'>Colophone</h2>
+                <h2 className='pb-6'>Colophon</h2>
                 <div className='mb-10'>
                     <Image src="/assets/colophone/colophone.webp" alt='Anton Stallbörger Quality' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[561px]' priority='true'></Image>
                     <h4 className='mb-2 mt-6 text-xl'>Typography</h4>
@@ -43,4 +43,4 @@ export const Colophone = () => {
     )
 }
 
-export default Colophone
+export default Colophon
