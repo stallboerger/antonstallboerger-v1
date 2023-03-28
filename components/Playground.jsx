@@ -52,7 +52,7 @@ export const Playground = () => {
                                 Great Finds
                                 </p>
                                 <p className='text-sm text-zinc-500'>
-                                Home of all the bookmarks and Safari tabs
+                                Home of all bookmarks and Safari tabs
                                 </p>
                                 <p className='text-sm text-zinc-500'>
                                 Q1 2023
@@ -80,7 +80,7 @@ export const Playground = () => {
                                 Sustainable Goods
                                 </p>
                                 <p className='text-sm text-zinc-500'>
-                                High quality, long lasting and sustainable goods
+                                Quality, long lasting and sustainable goods
                                 </p>
                                 <p className='text-sm text-zinc-500'>
                                 Q4 2022
