@@ -6,8 +6,8 @@ export const Footer = () => {
         <div className='w-full h-auto mt-10 mb-20'>
             <div className="w-full h-[1px] bg-zinc-200 mb-6"></div>
             
-            <div className="flex justify-between">
-                <div className="flex gap-12 text-zinc-500 text-sm">
+            <div className="flex sm:flex-row flex-col gap-6 sm:gap-0 justify-between">
+                <div className="flex  gap-12 text-zinc-500 text-sm">
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900">Connect</p>
                         <a href="https://twitter.com/AntonStalli" className="hover:text-blue-600">Twitter</a>
