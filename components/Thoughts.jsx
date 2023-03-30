@@ -8,6 +8,27 @@ export const Thoughts = () => {
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Thoughts</h2>
                 <div className=''>
+                <div className='mb-10'>                
+                    <Image 
+                        src="/assets/thoughts/ambientcomputing.png" 
+                        alt='Anton Stallbörger Ambient Computing' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                        priority='true'
+                    />
+                    <h4 className='mb-2 text-xl'>Ambient Computing</h4>
+                    <p className='leading-relaxed'>
+                    As we enter a new era of technology, ambient computing emerges as a powerful force, seamlessly integrating technology into our surroundings and connecting humans on a deeper level. This innovative field transcends traditional computing by embedding capabilities into everyday environments, operating discreetly in the background to anticipate our needs. As a result, ambient computing paves the way for more natural, intuitive, and efficient interactions between humans and technology, redefining interfaces for a new era.
+                    <br />
+                    <br />
+                    Ambient computing can help us achieve greater mindfulness, improved work-life balance, personalized experiences, and heightened environmental awareness. As ambient computing becomes more prevalent, we can anticipate a more conscious and meaningful existence, where technology serves as an enabler rather than a barrier. By seamlessly integrating technology into our environments, we can look forward to a future where we are more connected and fulfilled.
+                    <br />
+                    <br />
+                    As we continue to innovate and explore the potential of ambient computing, it&apos;s essential to keep human values and well-being at the forefront of our endeavors. By doing so, we can ensure that the dawn of ambient computing leads to a brighter, more connected, and more fulfilling future for all.
+                    </p>
+                </div>
+                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
                     <Image src="/assets/thoughts/recyclingmoebel-iittala-raami-recycelt-jpg--71872-.webp" alt='Anton Stallbörger Quality' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
                     <h4 className='mb-2 text-xl'>Quality</h4>
                     <p className='leading-relaxed'>
