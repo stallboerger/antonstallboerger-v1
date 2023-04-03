@@ -10,6 +10,30 @@ export const Thoughts = () => {
                 <div className=''>
                 <div className='mb-10'>                
                     <Image 
+                        src="/assets/thoughts/details.png" 
+                        alt='Anton Stallbörger Seemingly Insignificant' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                        priority='true'
+                    />
+                    <h4 className='mb-2 text-xl'>The Beauty in the Seemingly Insignificant</h4>
+                    <p className='leading-relaxed'>
+                    “The details are not the details. They make the design.” - Charles Eames
+                    <br />
+                    <br />
+                    The love for details is a journey of discovery, an invitation to explore the intricate tapestry of life. It is the realization that even the smallest elements of our existence have a story to tell, a purpose to fulfill. By embracing the details, we develop a deeper appreciation for the world around us, finding meaning and beauty in the most unexpected places.                    
+                    <br />
+                    <br />
+                    Cultivating a love for details requires a heightened sense of presence. It is the practice of being fully engaged in the moment, allowing ourselves to be captivated by the subtleties that often go unnoticed. This level of mindfulness not only enriches our understanding of the world but also fosters a sense of gratitude for the countless wonders that surround us. In this state of awareness, we are reminded that even the tiniest details contribute to the grand tapestry of life.                    
+                    <br />
+                    <br />
+                    A love for details is also a path to connection. By recognizing the importance of the seemingly insignificant, we are able to forge deeper connections with others, our environment, and ourselves. This attention to detail allows us to empathize more fully, to understand the nuances of human emotion, and to appreciate the delicate balance that exists within nature. As we learn to cherish the details, we cultivate a greater sense of harmony with the world and a more profound understanding of our place within it.                    
+                    </p>
+                </div>
+                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+                <div className='mb-10'>                
+                    <Image 
                         src="/assets/thoughts/ambientcomputing.png" 
                         alt='Anton Stallbörger Ambient Computing' 
                         width="593" 
