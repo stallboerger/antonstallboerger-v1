@@ -10,7 +10,7 @@ export const Thoughts = () => {
                 <div className=''>
                 <div className='mb-10'>                
                     <Image 
-                        src="/assets/thoughts/details.png" 
+                        src="/assets/thoughts/details1.png" 
                         alt='Anton Stallbörger Seemingly Insignificant' 
                         width="593" 
                         height="305" 
