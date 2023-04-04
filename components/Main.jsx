@@ -11,8 +11,8 @@ export const Main = () => {
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2 flex flex-row'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER&thinsp;・&thinsp;  </p>
-                  <GMTTime /> 
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER</p>
+                  {/* <GMTTime />  */}
                   <p className='text-sm text-zinc-500'>&nbsp; GMT</p>
               </div>
               <h1>

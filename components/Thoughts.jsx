@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Thoughts = () => {
     return (
@@ -8,6 +9,23 @@ export const Thoughts = () => {
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Thoughts</h2>
                 <div className=''>
+                
+                {/* <Link href="seeminglyinsignificant" className='flex gap-4 mb-20'>
+                    <Image 
+                        src="/assets/thoughts/ambientcomputing.png"
+                        alt='Anton Stallbörger Ambient Computing'
+                        width="305"
+                        height="305"
+                        className='rounded-xl object-cover w-4/12 h-4/12 max-h-[305px]'
+                        priority='true'
+                    />
+                      <div className='flex flex-col h-full '>
+                            <h4 className=''>Ambient Computing</h4>
+                            <p className='text-sm text-zinc-500 sm:visible collapse'>As we enter a new era of technology, ambient computing emerges as a powerful force</p>
+                            <p className='text-sm text-zinc-500'>April 3, 2023</p>
+                      </div>
+                </Link> */}
+
                 <div className='mb-10'>                
                     <Image 
                         src="/assets/thoughts/details1.png" 
@@ -19,6 +37,7 @@ export const Thoughts = () => {
                     />
                     <h4 className='mb-2 text-xl'>The Beauty in the Seemingly Insignificant</h4>
                     <p className='leading-relaxed'>
+                    <br />
                     “The details are not the details. They make the design.” - Charles Eames
                     <br />
                     <br />

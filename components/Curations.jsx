@@ -12,21 +12,21 @@ export const Curations = () => {
                 <div className='flex flex-wrap gap-4'>
                     <Link 
                         href="https://www.curations.tech/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                            className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <Internet className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">Visit Curations</p>
                     </Link>
                     <Link 
                         href="https://designwithtech.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <User className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">Florian</p>
                     </Link>
                     <Link 
                         href="https://www.nilseller.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank">
                         <User className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">Nils</p>
