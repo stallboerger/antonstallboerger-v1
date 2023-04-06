@@ -9,14 +9,31 @@ export const UpsApp = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>UPS App Redesign</h2>
-                <Link 
-                    href="https://www.figma.com/proto/3m2XkVbguuGwNYfWknrFg4/UPS-App-Redesign?page-id=138%3A18&node-id=707%3A12467&viewport=113%2C371%2C0.03&scaling=scale-down&starting-point-node-id=707%3A12467" 
-                    className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
-                    target="_blank"
-                >
+                <div className='flex flex-wrap gap-2'>
+                    <Link 
+                        href="https://www.figma.com/proto/3m2XkVbguuGwNYfWknrFg4/UPS-App-Redesign?page-id=138%3A18&node-id=707%3A12467&viewport=113%2C371%2C0.03&scaling=scale-down&starting-point-node-id=707%3A12467" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank"
+                    >
                     <SmartphoneDevice className="text-xs self-center stroke-2"/>
                     <p className="text-sm font-medium self-center">View Prototype</p>
-                </Link>
+                    </Link>
+                    <Link 
+                        href="#" 
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-1 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank"
+                    >
+                        <Image
+                            src="/assets/projects/alice_sopp.jpeg"
+                            alt="Alice Sopp"
+                            width="24"
+                            height="24"
+                            className="rounded-full"
+                            priority="true"
+                        />                         
+                        <p className="text-sm font-medium self-center">Alice</p>
+                    </Link>
+                </div>
                 <p className='pb-10 pt-6'>
                 The UPS app is a popular mobile application that allows users to track and manage their packages, schedule pick-ups, and access other UPS services on the go. However, the app had been criticized for its outdated design and lack of user-friendly features. As a result, I decided to undertake a redesign of the app to improve its user experience and functionality.
                 <br />
