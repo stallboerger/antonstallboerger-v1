@@ -43,7 +43,7 @@ export const Boost = () => {
                         <p className="text-sm font-medium self-center">Florian</p>
                     </Link>
                 </div>
-                <p className='pb-10 pt-6'>
+                <p className='pb-10 pt-6 text-zinc-500'>
                 Boost is a app and product that focuses on personalized nutrients. It solves the problem of having to take multiple supplements with varying doses, by providing users with their own personalized nutrient pack. Boost has a seamless onboarding process that collects information about the user&apos;s lifestyle, basic information, and real-time data to calculate the exact nutrients that the user needs. In addition, Boost also comes with a dispenser device, which makes it easier to take the right amount of nutrients, without the hassle of measuring or counting pills.
                 <br />
                 <br />
@@ -56,7 +56,7 @@ export const Boost = () => {
                     priority='true'
                 />
                 <br />
-                <h3 className='text-2xl pb-2'>Onboarding</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900'>Onboarding</h3>
                 Boost onboarding is simple and straightforward. It starts with a series of questions that help us understand nutritional requirements and current diet. Based on the answers, we create a personalized nutrition profile that takes into account your age, gender, weight, height, activity level and various different aspects of your everyday life.
                 <br />
                 <br />
@@ -69,7 +69,7 @@ export const Boost = () => {
                     priority='true'
                 />
                 <br />
-                <h3 className='text-2xl pb-2'>Personalized Recommendation</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900'>Personalized Recommendation</h3>
                 Based on your nutritional profile, Boost calculates your daily nutrient needs and gives you customized recommendations for vitamins, minerals, and other essential nutrients. Recommendations are updated daily based on weather and your step count to ensure you get the right amount of nutrients at the right time.
                 <br />
                 <br />
@@ -82,7 +82,7 @@ export const Boost = () => {
                     priority='true'
                 />
                 <br />
-                <h3 className='text-2xl pb-2'>Dispenser</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900'>Dispenser</h3>
                 The Boost dispenser is an device that dispenses your individual nutrients in the form of a powder. Simply dispense the powder into a glass of water and you have a delicious and nutrient-rich drink that helps you meet your daily nutritional needs.
                 <br />
                 <br />
@@ -94,7 +94,7 @@ export const Boost = () => {
                     className='rounded-xl mb-6 max-h-[340px]' 
                 />
                 <br />
-                <h3 className='text-2xl pb-2'>Branding</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900'>Branding</h3>
                 We have also dealt with the topic of branding. What could the product and everything around it look like? We created packaging for the device, a landing page, a manual and the overall appearance.
                 <br />
                 <br />
