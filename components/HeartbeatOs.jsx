@@ -7,7 +7,7 @@ export const HeartbeatOs = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-4'>HeartbeatOS</h2>
-                <p className='pb-10 pt-4'>
+                <p className='pb-10 pt-4 text-zinc-500'>
                 A communication between a heartbeat sensor on one side and a pulse actuator on the other side. Both are not connected with a cable. The communication was established using various current methods.
                 </p>
                 <Image 

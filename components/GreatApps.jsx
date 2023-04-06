@@ -9,7 +9,7 @@ export const GreatApps = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-4'>Great Apps</h2>
-                <p className='pb-10 pt-4'>
+                <p className='pb-10 pt-4 text-zinc-500'>
                 The App Store is filled with apps that just serve the purpose. They do what they are supposed to do, but they don&apos;t do it in a way that makes you want to use them. To value the apps that are created with love and passion in every detail, I created a concept for a collection of great apps worth using.
                 </p>
                 <Image 

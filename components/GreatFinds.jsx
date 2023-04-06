@@ -7,7 +7,7 @@ export const GreatFinds = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-4'>Great Finds</h2>
-                <p className='pb-10 pt-4'>
+                <p className='pb-10 pt-4 text-zinc-500'>
                 We all have those bookmarks and Safari tabs stored away in our browsers. Some of them are just too good to be forgotten. A place where everyone can share their favorite apps, websites, and tools to get inspired and inspire others.
                 </p>
                 <Image 

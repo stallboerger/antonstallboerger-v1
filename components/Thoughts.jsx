@@ -38,7 +38,7 @@ export const Thoughts = () => {
                         priority='true'
                     />
                     <h4 className='mb-2 text-xl'>The Beauty in the Seemingly Insignificant</h4>
-                    <p className='leading-relaxed'>
+                    <p className='leading-relaxed text-zinc-500'>
                     <br />
                     “The details are not the details. They make the design.” - Charles Eames
                     <br />
@@ -63,7 +63,7 @@ export const Thoughts = () => {
                         priority='true'
                     />
                     <h4 className='mb-2 text-xl'>Ambient Computing</h4>
-                    <p className='leading-relaxed'>
+                    <p className='leading-relaxed text-zinc-500'>
                     As we enter a new era of technology, ambient computing emerges as a powerful force, seamlessly integrating technology into our surroundings and connecting humans on a deeper level. This innovative field transcends traditional computing by embedding capabilities into everyday environments, operating discreetly in the background to anticipate our needs. As a result, ambient computing paves the way for more natural, intuitive, and efficient interactions between humans and technology, redefining interfaces for a new era.
                     <br />
                     <br />
@@ -82,7 +82,7 @@ export const Thoughts = () => {
                         className='rounded-xl object-cover mb-4 max-h-[305px]'
                     />
                     <h4 className='mb-2 text-xl'>Quality</h4>
-                    <p className='leading-relaxed'>
+                    <p className='leading-relaxed text-zinc-500'>
                     In this fast-moving and demanding world, we often get swept away by the temptation of affordability and comfort. It is natural to desire the maximum value for our money, but unfortunately, this pursuit can lead us to compromise on quality.
                     <br />
                     <br />
@@ -102,7 +102,7 @@ export const Thoughts = () => {
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
                     />
                     <h4 className='mb-2 text-xl'>Life&apos;s Journey</h4>
-                    <p className='leading-relaxed'>
+                    <p className='leading-relaxed text-zinc-500'>
                     As we wander through the void of life, it&apos;s important to remember that we are not alone in our journey. Our experiences, both good and bad, shape us into the person we are and will become. It&apos;s up to us to embrace them and use them to our advantage, to grow and evolve. The path may not always be clear, but it is through adversity and uncertainty that we find strength and purpose. So let us not fear the unknown, but instead embrace it as an opportunity to discover our true selves and what truly matters in life.
                     </p>
                 </div>

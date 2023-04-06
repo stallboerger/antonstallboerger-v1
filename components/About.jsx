@@ -10,7 +10,7 @@ export const About = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>About</h2>
-                <p className='pb-8'>
+                <p className='pb-8 text-zinc-500'>
                 “Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do” - Virgil Abloh
                 <br />
                 <br />
