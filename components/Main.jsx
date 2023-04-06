@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Link from 'next/link'
-import GMTTime from './GMTTime';
 import { NavArrowRight } from 'iconoir-react';
 
 export const Main = () => {
@@ -11,19 +10,17 @@ export const Main = () => {
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
               <div className='pb-2 flex flex-row'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, GER</p>
-                  {/* <GMTTime />  */}
-                  <p className='text-sm text-zinc-500'>&nbsp; GMT</p>
+                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, Germany</p>
               </div>
               <h1>
               Digital Product Designer and Developer driven 
               <br />
               by curiosity
               </h1>
-              <p className='py-6'>
+              <p className='py-6 text-zinc-500'>
               At the moment, I&apos;m a student at the University of Design in Schwäbisch Gmünd, Germany where I&apos;m focusing on digital products and development. I love creating products that are functional, aesthetically pleasing, and user-friendly. In addition, I&apos;m an avid supporter of the open source movement and the community that surrounds it.
               </p>
-              <p className='pb-6'>
+              <p className='pb-6 text-zinc-500'>
               Here are some of my curated works I&apos;ve done in the past.
               </p>
 
@@ -143,7 +140,7 @@ export const Main = () => {
                 </div>
               </Link>
               
-              <p className='pb-4'>
+              <p className='pb-4 text-zinc-500'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
               <a href="mailto:anton@stallboerger.de" className='hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2 mb-10 text-sm font-medium'>Get in touch</a>

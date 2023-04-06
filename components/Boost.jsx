@@ -3,36 +3,43 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { SmartphoneDevice, Internet, User} from 'iconoir-react'
 import Footer from './Footer'
-import BackButton from './BackButton'
 
 export const Boost = () => {
     return (
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-                <div className='flex justify-between w-full'>
-                    <h2 className='pb-6'>Boost</h2>
-                    {/* <BackButton /> */}
-                </div>
+                <h2 className='pb-6'>Boost</h2>
                 <div className='flex flex-wrap gap-2'>
                     <Link 
                         href="https://www.figma.com/proto/tpBz0t3tighs62W4aAS6J5/Boost?page-id=381%3A101&node-id=651%3A440&viewport=172%2C299%2C0.09&scaling=scale-down&starting-point-node-id=651%3A440" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
-                        target="_blank">
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank"
+                    >
                         <SmartphoneDevice className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">View Prototype</p>
                     </Link>
                     <Link 
                         href="https://boost-three.vercel.app/index.html" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
-                        target="_blank">
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank"
+                    >
                         <Internet className="text-xs self-center stroke-2"/>
                         <p className="text-sm font-medium self-center">View Landingpage</p>
                     </Link>
                     <Link 
                         href="https://designwithtech.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
-                        target="_blank">
-                        <User className="text-xs self-center stroke-2"/>
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-1 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank"
+                    >
+                        <Image
+                            src="/assets/projects/florian_kiem1.jpg"
+                            alt="Florian Kiem"
+                            width="24"
+                            height="24"
+                            className="rounded-full"
+                            priority="true"
+                        /> 
+                        {/* <User className="text-xs self-center stroke-2"/> */}
                         <p className="text-sm font-medium self-center">Florian</p>
                     </Link>
                 </div>

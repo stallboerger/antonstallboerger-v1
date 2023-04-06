@@ -9,21 +9,27 @@ export const HomyApp = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>Homy App</h2>
-                <div className='flex gap-4 flex-wrap'>
+                <div className='flex gap-2 flex-wrap'>
                     <Link 
                         href="https://www.figma.com/proto/Q8Hj1VlDqYiPw9rx6n1SvP/Visual-Prototyping-Smart-Home-App?page-id=66%3A2&node-id=331%3A6081&viewport=-378%2C-1110%2C0.05&scaling=scale-down&starting-point-node-id=331%3A6081&show-proto-sidebar=1" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2"
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank"
                     >
-                        <SmartphoneDevice className="text-xs self-center stroke-2"/>
-                        <p className="text-sm font-medium self-center">View Prototype</p>
+                    <SmartphoneDevice className="text-xs self-center stroke-2"/>
+                    <p className="text-sm font-medium self-center">View Prototype</p>
                     </Link>
                     <Link 
                         href="https://www.nilseller.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border-2 border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
-                        target="_blank"
-                    >
-                        <User className="text-xs self-center stroke-2"/>
+                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-1 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        target="_blank">
+                        <Image
+                            src="/assets/projects/nils_eller_portrait.jpg"
+                            alt="Florian Kiem"
+                            width="24"
+                            height="24"
+                            className="rounded-full"
+                            priority="true"
+                        />  
                         <p className="text-sm font-medium self-center">Nils</p>
                     </Link>
                 </div>

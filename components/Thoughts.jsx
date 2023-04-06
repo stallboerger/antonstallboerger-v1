@@ -7,24 +7,26 @@ export const Thoughts = () => {
     return (
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-                <h2 className='pb-6'>Thoughts</h2>
+                <h2 className='pb-10'>Thoughts</h2>
                 <div className=''>
                 
-                {/* <Link href="seeminglyinsignificant" className='flex gap-4 mb-20'>
+                {/* <Link href="seeminglyinsignificant" className='flex gap-4 mb-10'>
                     <Image 
-                        src="/assets/thoughts/ambientcomputing.png"
+                        src="/assets/thoughts/ambientcomputing_s.png"
                         alt='Anton Stallbörger Ambient Computing'
                         width="305"
                         height="305"
-                        className='rounded-xl object-cover w-4/12 h-4/12 max-h-[305px]'
+                        className='rounded-xl object-cover w-1/5 h-1/5 max-h-[305px]'
                         priority='true'
                     />
-                      <div className='flex flex-col h-full '>
-                            <h4 className=''>Ambient Computing</h4>
-                            <p className='text-sm text-zinc-500 sm:visible collapse'>As we enter a new era of technology, ambient computing emerges as a powerful force</p>
-                            <p className='text-sm text-zinc-500'>April 3, 2023</p>
-                      </div>
-                </Link> */}
+                    <div className='flex flex-col h-50 justify-between'>
+                        <h4 className=''>Ambient Computing</h4>
+                        <p className='text-sm text-zinc-500 sm:visible collapse'>As we enter a new era of technology, ambient computing emerges as a powerful force</p>
+                        <p className='text-sm text-zinc-500'>April 3, 2023</p>
+                    </div>
+                </Link>
+
+                <div className="w-full h-[1px] bg-zinc-200 my-10"></div> */}
 
                 <div className='mb-10'>                
                     <Image 
@@ -72,7 +74,13 @@ export const Thoughts = () => {
                     </p>
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                    <Image src="/assets/thoughts/recyclingmoebel-iittala-raami-recycelt-jpg--71872-.webp" alt='Anton Stallbörger Quality' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
+                    <Image 
+                        src="/assets/thoughts/recyclingmoebel-iittala-raami-recycelt-jpg--71872-.webp" 
+                        alt='Anton Stallbörger Quality' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]'
+                    />
                     <h4 className='mb-2 text-xl'>Quality</h4>
                     <p className='leading-relaxed'>
                     In this fast-moving and demanding world, we often get swept away by the temptation of affordability and comfort. It is natural to desire the maximum value for our money, but unfortunately, this pursuit can lead us to compromise on quality.
@@ -86,7 +94,13 @@ export const Thoughts = () => {
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
                 <div className='mb-10'>                
-                    <Image src="/assets/thoughts/life.webp" alt='Anton Stallbörger Life' width="593" height="305" className='rounded-xl object-cover mb-4 max-h-[305px]' priority='true'></Image>
+                    <Image 
+                        src="/assets/thoughts/life.webp" 
+                        alt='Anton Stallbörger Life' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                    />
                     <h4 className='mb-2 text-xl'>Life&apos;s Journey</h4>
                     <p className='leading-relaxed'>
                     As we wander through the void of life, it&apos;s important to remember that we are not alone in our journey. Our experiences, both good and bad, shape us into the person we are and will become. It&apos;s up to us to embrace them and use them to our advantage, to grow and evolve. The path may not always be clear, but it is through adversity and uncertainty that we find strength and purpose. So let us not fear the unknown, but instead embrace it as an opportunity to discover our true selves and what truly matters in life.

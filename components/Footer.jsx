@@ -13,7 +13,6 @@ export const Footer = () => {
                         <a href="https://twitter.com/AntonStalli" className="hover:text-blue-600">Twitter</a>
                         <a href="https://github.com/antonstallboerger" className="hover:text-purple-600">GitHub</a>
                         <a href="https://read.cv/antonsta" className="hover:text-zinc-900">Read.cv</a>
-                        {/* <a href="https://www.cosmos.so/antonsta" className="hover:text-zinc-900">Cosmos</a> */}
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900">Explore</p>
@@ -30,7 +29,6 @@ export const Footer = () => {
                 </div>
                 <p className="credits text-sm text-zinc-900 mb-6 font-medium">&copy; Anton Stallbörger 2023</p>
             </div>
-            
         </div>
     )
 }
