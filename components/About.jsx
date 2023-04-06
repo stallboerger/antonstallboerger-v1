@@ -10,8 +10,8 @@ export const About = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-6'>About</h2>
-                <p className='pb-8 text-zinc-500'>
-                “Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do” - Virgil Abloh
+                <p className='pb-8 text-zinc-900'>
+                <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh
                 <br />
                 <br />
                 <Image 
@@ -22,7 +22,9 @@ export const About = () => {
                     className='rounded-xl mb-2 max-h-[340px] object-cover' 
                     priority='true'
                 />
-                <br />
+                
+                </p>
+                <p className='pb-8 text-zinc-500'>
                 I am a passionate designer and developer who is driven by a love for great, high-quality and thoughtful design. Design is an integral part of my everyday life, and I believe that it has the power to shape and improve the world around us.
                 <br />
                 <br />
