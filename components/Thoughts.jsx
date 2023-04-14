@@ -30,6 +30,27 @@ export const Thoughts = () => {
 
                 <div className='mb-10'>                
                     <Image 
+                        src="/assets/thoughts/gratitude.png" 
+                        alt='Anton Stallbörger Gratitute' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                        priority='true'
+                    />
+                    <h4 className='mb-4 text-xl'>Gratitude</h4>
+                    <p className='leading-relaxed text-zinc-500'>
+                    Gratefulness is a powerful force in our lives that has the ability to transform our perspective, our relationships, and our overall well-being. It&apos;s an essential ingredient to living a fulfilling and meaningful life. By cultivating a sense of gratitude, we can shift our focus away from what we lack and instead, appreciate the abundance that surrounds us. This simple shift in mindset can have a profound impact on our mental and emotional health, creating a ripple effect that extends beyond ourselves and into the lives of those we interact with.                   
+                    <br />
+                    <br />
+                    It plays a crucial role in fostering and maintaining strong, healthy relationships. When we express gratitude to others, we are not only acknowledging their efforts and contributions, but we are also reinforcing the bond that connects us. This simple act of appreciation can strengthen trust, promote open communication, and increase overall satisfaction within our relationships. Furthermore, when we practice gratitude, we become more empathetic and understanding, allowing us to navigate conflicts with greater ease and compassion. In essence, gratefulness serves as a catalyst for deepening our connections with others, fostering a sense of belonging and unity that is essential to our overall well-being.
+                    <br />
+                    <br />
+                    In a world that often emphasizes the pursuit of more, embracing gratefulness as a daily practice can be a transformative and grounding experience. By cultivating a sense of gratitude, we can improve our mental health, strengthen our relationships, and ultimately, lead more meaningful and fulfilling lives. As we begin to recognize and appreciate the abundance that surrounds us, we not only enrich our own lives, but we also contribute to the collective well-being of our communities and the world at large.
+                    </p>
+                </div>
+                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+                <div className='mb-10'>                
+                    <Image 
                         src="/assets/thoughts/details1.png" 
                         alt='Anton Stallbörger Seemingly Insignificant' 
                         width="593" 
@@ -37,9 +58,8 @@ export const Thoughts = () => {
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
                         priority='true'
                     />
-                    <h4 className='mb-2 text-xl'>The Beauty in the Seemingly Insignificant</h4>
+                    <h4 className='mb-4 text-xl'>The Beauty in the Seemingly Insignificant</h4>
                     <p className='leading-relaxed text-zinc-500'>
-                    <br />
                     “The details are not the details. They make the design.” - Charles Eames
                     <br />
                     <br />
@@ -62,7 +82,7 @@ export const Thoughts = () => {
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
                         priority='true'
                     />
-                    <h4 className='mb-2 text-xl'>Ambient Computing</h4>
+                    <h4 className='mb-4 text-xl'>Ambient Computing</h4>
                     <p className='leading-relaxed text-zinc-500'>
                     As we enter a new era of technology, ambient computing emerges as a powerful force, seamlessly integrating technology into our surroundings and connecting humans on a deeper level. This innovative field transcends traditional computing by embedding capabilities into everyday environments, operating discreetly in the background to anticipate our needs. As a result, ambient computing paves the way for more natural, intuitive, and efficient interactions between humans and technology, redefining interfaces for a new era.
                     <br />
@@ -81,7 +101,7 @@ export const Thoughts = () => {
                         height="305" 
                         className='rounded-xl object-cover mb-4 max-h-[305px]'
                     />
-                    <h4 className='mb-2 text-xl'>Quality</h4>
+                    <h4 className='mb-4 text-xl'>Quality</h4>
                     <p className='leading-relaxed text-zinc-500'>
                     In this fast-moving and demanding world, we often get swept away by the temptation of affordability and comfort. It is natural to desire the maximum value for our money, but unfortunately, this pursuit can lead us to compromise on quality.
                     <br />
@@ -101,7 +121,7 @@ export const Thoughts = () => {
                         height="305" 
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
                     />
-                    <h4 className='mb-2 text-xl'>Life&apos;s Journey</h4>
+                    <h4 className='mb-4 text-xl'>Life&apos;s Journey</h4>
                     <p className='leading-relaxed text-zinc-500'>
                     As we wander through the void of life, it&apos;s important to remember that we are not alone in our journey. Our experiences, both good and bad, shape us into the person we are and will become. It&apos;s up to us to embrace them and use them to our advantage, to grow and evolve. The path may not always be clear, but it is through adversity and uncertainty that we find strength and purpose. So let us not fear the unknown, but instead embrace it as an opportunity to discover our true selves and what truly matters in life.
                     </p>
