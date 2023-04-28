@@ -8,27 +8,8 @@ export const Thoughts = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-10'>Thoughts</h2>
-                <div className=''>
-                
-                {/* <Link href="seeminglyinsignificant" className='flex gap-4 mb-10'>
-                    <Image 
-                        src="/assets/thoughts/ambientcomputing_s.png"
-                        alt='Anton Stallbörger Ambient Computing'
-                        width="305"
-                        height="305"
-                        className='rounded-xl object-cover w-1/5 h-1/5 max-h-[305px]'
-                        priority='true'
-                    />
-                    <div className='flex flex-col h-50 justify-between'>
-                        <h4 className=''>Ambient Computing</h4>
-                        <p className='text-sm text-zinc-500 sm:visible collapse'>As we enter a new era of technology, ambient computing emerges as a powerful force</p>
-                        <p className='text-sm text-zinc-500'>April 3, 2023</p>
-                    </div>
-                </Link>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div> */}
-
-                <div className='mb-10'>
+                <div id='perfection'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Apr 28, 2023
                     </p>                
@@ -55,9 +36,10 @@ export const Thoughts = () => {
 
                     </p>
                 </div>
+
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
 
-                <div className='mb-10'> 
+                <div id='gratitude'> 
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Apr 14, 2023
                     </p>                
@@ -79,8 +61,10 @@ export const Thoughts = () => {
                     In a world that often emphasizes the pursuit of more, embracing gratefulness as a daily practice can be a transformative and grounding experience. By cultivating a sense of gratitude, we can improve our mental health, strengthen our relationships, and ultimately, lead more meaningful and fulfilling lives. As we begin to recognize and appreciate the abundance that surrounds us, we not only enrich our own lives, but we also contribute to the collective well-being of our communities and the world at large.
                     </p>
                 </div>
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>  
+
+                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+
+                <div id='details'>  
                     <p className='text-sm mb-4 text-zinc-500'>
                         Mon Apr 3, 2023
                     </p>               
@@ -105,8 +89,10 @@ export const Thoughts = () => {
                     A love for details is also a path to connection. By recognizing the importance of the seemingly insignificant, we are able to forge deeper connections with others, our environment, and ourselves. This attention to detail allows us to empathize more fully, to understand the nuances of human emotion, and to appreciate the delicate balance that exists within nature. As we learn to cherish the details, we cultivate a greater sense of harmony with the world and a more profound understanding of our place within it.                    
                     </p>
                 </div>
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>
+
+                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+
+                <div id='ambientcomputing'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Thu Mar 30, 2023
                     </p>                 
@@ -128,7 +114,10 @@ export const Thoughts = () => {
                     As we continue to innovate and explore the potential of ambient computing, it&apos;s essential to keep human values and well-being at the forefront of our endeavors. By doing so, we can ensure that the dawn of ambient computing leads to a brighter, more connected, and more fulfilling future for all.
                     </p>
                 </div>
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+
+                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+
+                <div id='quality'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Feb 3, 2023 
                     </p>    
@@ -150,8 +139,10 @@ export const Thoughts = () => {
                     It&apos;s true that high-quality goods often come with a higher cost. Not everyone can afford to indulge in expensive items. But in certain aspects of our lives where quality truly matters, it may be worth prioritizing it over saving a few dollars. For instance, investing in a sturdy office chair or durable shoes can have a profound impact on our daily comfort and well-being.
                     </p>
                 </div>
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>
+
+                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+
+                <div className='mb-10' id='lifesjourney'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Feb 3, 2023
                     </p>                 

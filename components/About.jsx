@@ -9,32 +9,38 @@ export const About = () => {
     return (
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
-                <h2 className='pb-6'>About</h2>
-                <p className='pb-8 text-zinc-900'>
-                <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh
-                <br />
-                <br />
+                <h2 className='pb-10'>About</h2>
+                <p className='pb-10 text-zinc-900'>
+                    <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh
+                </p>
                 <Image 
                     src="/assets/about/me.webp" 
                     alt='Anton Stallbörger' 
                     width="593" 
                     height="340" 
-                    className='rounded-xl mb-2 max-h-[340px] object-cover' 
+                    className='rounded-xl mb-10 max-h-[340px] object-cover' 
                     priority='true'
                 />
                 
-                </p>
-                <p className='pb-8 text-zinc-500'>
+                <p className='pb-10 text-zinc-500'>
                 I am a passionate designer and developer who is driven by a love for great, high-quality and thoughtful design. Design is an integral part of my everyday life, and I believe that it has the power to shape and improve the world around us.
                 <br />
                 <br />
                 Pushing the boundaries of design and striving to create something truly unique and meaningful is a constant pursuit of mine. In addition to my work, I also value meaningful conversations and good music, which help to inspire and motivate me in my creative process.
-                <br />
-                <br />
-                <Carousel />
-                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900">Norm Architects</Link>.
                 </p>
-                <h3 className='text-2xl pb-4'>Tools I admire</h3>
+                <Image 
+                    src="/assets/about/c1.png" 
+                    alt='Anton Stallbörger Pursuit of Perfection' 
+                    width="593" 
+                    height="305" 
+                    className='rounded-xl object-cover mb-10 max-h-[305px]' 
+                    priority='true'
+                />
+                {/* <Carousel /> */}
+                <p className='pb-10 text-zinc-500'>
+                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-900 hover:text-zinc-300">Norm Architects</Link>.
+                </p>
+                <h3 className='text-2xl pb-6'>Tools I admire</h3>
                 <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/figma.webp" 
