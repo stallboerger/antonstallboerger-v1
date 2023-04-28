@@ -28,14 +28,45 @@ export const Thoughts = () => {
 
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div> */}
 
-                <div className='mb-10'>                
+                <div className='mb-10'>
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Fri Apr 28, 2023
+                    </p>                
+                    <Image 
+                        src="/assets/thoughts/norm.png" 
+                        alt='Anton Stallbörger Pursuit of Perfection' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                        priority='true'
+                    />
+                    <h4 className='mb-4 text-xl'>The Pursuit of Perfection</h4>
+                    <p className='leading-relaxed text-zinc-500'>
+                    <i>“[Human beings are] an entity in a universe and [they are] striving to find order in [themselves] in relation to that universe we desire a perfect understanding-a perfect balance-a full rightness in life.”</i> - Ray Eames
+                    <br />
+                    <br />
+                    Ray Eames&apos; quote is a powerful reminder of our innate desire for order, balance, and understanding in our lives. As human beings, we exist within a vast and complex universe, and we are constantly striving to find our place and purpose within it. We seek to understand the world around us and our relationship with it, as to create a sense of order and balance in our own lives.
+                    <br />
+                    <br />
+                    However, the pursuit of perfection and full rightness in life is a journey that is fraught with challenges and obstacles. Life is unpredictable and constantly changing, and our quest for perfection can often lead to disappointment and frustration. It is important to recognize that the pursuit of perfection is not about achieving a static state of being, but rather about embracing the process of growth and evolution.
+                    <br />
+                    <br />
+                    Ultimately, the search for order, balance, and understanding is a deeply personal and subjective journey. Each individual must find their own path and their own sense of meaning in life. However, by embracing the journey and striving towards our own personal ideals of perfection, we can find a sense of purpose and fulfillment in our lives, even in the midst of the chaos and uncertainty of the universe. Ray Eames&apos; quote reminds us that while the pursuit of perfection may be challenging, it is a journey that is worth taking.
+
+                    </p>
+                </div>
+                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+
+                <div className='mb-10'> 
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Fri Apr 14, 2023
+                    </p>                
                     <Image 
                         src="/assets/thoughts/gratitude.png" 
                         alt='Anton Stallbörger Gratitute' 
                         width="593" 
                         height="305" 
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
-                        priority='true'
                     />
                     <h4 className='mb-4 text-xl'>Gratitude</h4>
                     <p className='leading-relaxed text-zinc-500'>
@@ -49,18 +80,20 @@ export const Thoughts = () => {
                     </p>
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>                
+                <div className='mb-10'>  
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Mon Apr 3, 2023
+                    </p>               
                     <Image 
                         src="/assets/thoughts/details1.png" 
                         alt='Anton Stallbörger Seemingly Insignificant' 
                         width="593" 
                         height="305" 
                         className='rounded-xl object-cover mb-4 max-h-[305px]' 
-                        priority='true'
                     />
                     <h4 className='mb-4 text-xl'>The Beauty in the Seemingly Insignificant</h4>
                     <p className='leading-relaxed text-zinc-500'>
-                    “The details are not the details. They make the design.” - Charles Eames
+                    <i>“The details are not the details. They make the design.”</i> - Charles Eames
                     <br />
                     <br />
                     The love for details is a journey of discovery, an invitation to explore the intricate tapestry of life. It is the realization that even the smallest elements of our existence have a story to tell, a purpose to fulfill. By embracing the details, we develop a deeper appreciation for the world around us, finding meaning and beauty in the most unexpected places.                    
@@ -73,14 +106,16 @@ export const Thoughts = () => {
                     </p>
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>                
+                <div className='mb-10'>
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Thu Mar 30, 2023
+                    </p>                 
                     <Image 
                         src="/assets/thoughts/ambientcomputing.png" 
                         alt='Anton Stallbörger Ambient Computing' 
                         width="593" 
                         height="305" 
-                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
-                        priority='true'
+                        className='rounded-xl object-cover mb-4 max-h-[305px]'
                     />
                     <h4 className='mb-4 text-xl'>Ambient Computing</h4>
                     <p className='leading-relaxed text-zinc-500'>
@@ -94,6 +129,9 @@ export const Thoughts = () => {
                     </p>
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Fri Feb 3, 2023 
+                    </p>    
                     <Image 
                         src="/assets/thoughts/recyclingmoebel-iittala-raami-recycelt-jpg--71872-.webp" 
                         alt='Anton Stallbörger Quality' 
@@ -113,7 +151,10 @@ export const Thoughts = () => {
                     </p>
                 </div>
                 <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
-                <div className='mb-10'>                
+                <div className='mb-10'>
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Fri Feb 3, 2023
+                    </p>                 
                     <Image 
                         src="/assets/thoughts/life.webp" 
                         alt='Anton Stallbörger Life' 
