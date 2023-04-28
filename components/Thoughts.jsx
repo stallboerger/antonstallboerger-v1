@@ -9,7 +9,7 @@ export const Thoughts = () => {
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-10'>Thoughts</h2>
 
-                <div id='perfection'>
+                <div id='thepursuitofperfection'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Apr 28, 2023
                     </p>                
@@ -64,7 +64,7 @@ export const Thoughts = () => {
 
                 <div className="w-full h-[1px] bg-zinc-200 my-10" />
 
-                <div id='details'>  
+                <div id='thebeautyintheseeminglyinsignificant'>  
                     <p className='text-sm mb-4 text-zinc-500'>
                         Mon Apr 3, 2023
                     </p>               
