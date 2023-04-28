@@ -8,17 +8,38 @@ export default function Home() {
     <div>
       <Head>
       <title>Anton Stallbörger</title>
-        <meta name="description" content="Digital Product Designer and Developer" />
         <meta 
-        property="og:image" 
-        content="https://www.antonstallboerger.com/og_image.png" 
+          name="description" 
+          content="Digital Product Designer and Developer" 
         />
         <meta 
-        name="twitter:image" 
-        content="https://www.antonstallboerger.com/og_image.png" 
+          property="og:image" 
+          content="https://www.antonstallboerger.com/og_image.png" 
         />
-        <meta name="theme-color" content="#FFFFFF"/>
-        <link rel="icon" href="/favicon.ico" />
+        <meta 
+          name="twitter:image" 
+          content="https://www.antonstallboerger.com/og_image.png" 
+        />
+        <meta 
+          property="og:description" 
+          content="Digital Product Designer and Developer"
+        />
+        <meta 
+          property="og:type" 
+          content="website" 
+        />
+        <meta 
+          property="og:url" 
+          content="https://www.antonstallboerger.com"
+        />
+        <meta 
+          name="theme-color" 
+          content="#FFFFFF"
+        />
+        <link 
+          rel="icon" 
+          href="/favicon.ico" 
+        />
       </Head>
 
       <Navbar />
