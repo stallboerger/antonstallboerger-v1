@@ -9,20 +9,20 @@ export const Main = () => {
     <div className='w-full h-auto pt-[140px] md:pt-[180px]'>
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
-              <div className='pb-2 flex flex-row'>
+              {/* <div className='pb-4 flex flex-row'>
                   <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, Germany</p>
-              </div>
-              <h1>
+              </div> */}
+              <h1 className=''>
               Digital Product Designer and Developer driven 
               <br />
               by curiosity
               </h1>
-              <p className='py-6 text-zinc-500'>
-              At the moment, I&apos;m a student at the University of Design in Schwäbisch Gmünd, Germany where I&apos;m focusing on digital products and development. I love creating products that are functional, aesthetically pleasing, and user-friendly. In addition, I&apos;m an avid supporter of the open source movement and the community that surrounds it.
+              <p className='py-10 text-zinc-500'>
+              Enhancing human capabilities through design and development. I strive to create products that are intuitive and seamless, enhancing the capabilities of the users who interact with them. By considering the needs and desires of the end user throughout the design process, I believe in creating products that not only meet functional requirements but also provide a positive and enjoyable experience.
               </p>
-              <p className='pb-6 text-zinc-500'>
+              {/* <p className='pb-10 text-zinc-500'>
               Here are some of my curated works I&apos;ve done in the past.
-              </p>
+              </p> */}
 
               <Link href="boost" className='group'>
                 <Image 
@@ -33,7 +33,7 @@ export const Main = () => {
                   className='rounded-xl mb-2 object-cover group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                   priority="true"
                 />
-                <div className='flex pb-6 justify-between'>
+                <div className='flex justify-between mb-10'>
                   <div>
                     <p className='text-sm font-medium'>
                     Boost
@@ -52,8 +52,8 @@ export const Main = () => {
                     <NavArrowRight className='text-xs self-center stroke-2 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </div>
-                
               </Link>
+
               <Link href="/curations" className='group'>
                 <Image 
                   src="/assets/projects/curations.webp"  
@@ -62,7 +62,7 @@ export const Main = () => {
                   height="305" 
                   className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
-                <div className='flex pb-6 justify-between'>
+                <div className='flex justify-between mb-10'>
                   <div>
                     <p className='text-sm font-medium'>
                     Curations
@@ -82,6 +82,7 @@ export const Main = () => {
                   </div>
                 </div>
               </Link>
+
               <Link href='/upsapp' className='group'>
                 <Image 
                   src="/assets/projects/ups_app.webp" 
@@ -91,7 +92,7 @@ export const Main = () => {
                   priority='true' 
                   className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
-                <div className='flex pb-6 justify-between'>
+                <div className='flex justify-between mb-10'>
                   <div>
                     <p className='text-sm font-medium'>
                     Package App
@@ -111,6 +112,7 @@ export const Main = () => {
                   </div>
                 </div>
               </Link>
+
               <Link href="homyapp" className='group'>
                 <Image 
                   src="/assets/projects/homy_app.webp" 
@@ -119,7 +121,7 @@ export const Main = () => {
                   height="305" 
                   className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
-                <div className='flex pb-6 justify-between'>
+                <div className='flex pb-10 justify-between'>
                   <div>
                     <p className='text-sm font-medium'>
                     Homy
@@ -140,7 +142,7 @@ export const Main = () => {
                 </div>
               </Link>
               
-              <p className='pb-4 text-zinc-500'>
+              <p className='pb-6 text-zinc-500'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
               <a href="mailto:anton@stallboerger.de" className='hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2 mb-10 text-sm font-medium'>Get in touch</a>

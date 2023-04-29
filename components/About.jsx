@@ -38,7 +38,7 @@ export const About = () => {
                 />
                 {/* <Carousel /> */}
                 <p className='pb-10 text-zinc-500'>
-                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-900 hover:text-zinc-300">Norm Architects</Link>.
+                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900 w-fit underline">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-6'>Tools I admire</h3>
                 <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
