@@ -25,6 +25,10 @@ export default function Home() {
           content="Digital Product Designer and Developer"
         />
         <meta 
+          property="og:title"
+          content="Anton Stallbörger"
+        />
+        <meta 
           property="og:type" 
           content="website" 
         />
