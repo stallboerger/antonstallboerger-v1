@@ -1,17 +1,38 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from './Footer'
-import Carousel from './Carousel'
+// import Carousel from './Carousel'
 import { NavArrowRight } from 'iconoir-react'
 
+const quotes = [
+    "Life is so short you can't waste even a day subscribing to what someone thinks you can do versus knowing what you can do - Virgil Abloh",
+    "Happiness does not derive from the possession of goods, but from the ability to enjoy them - Bernard Grasset",
+    "One should always be curious. Not a passive curiosity dependent upon information received, but an aggressive curiosity that compels one to seek things out and ascertain them for oneself - Issey Miyake",
+    "The role of the designer is that of a very good, thoughtful host anticipating the needs of his guests - Charles Eames",
+    "The reward for good work is more work - Tom Sachs",
+    "Less, but better - Dieter Rams",
+    "The details are not the details. They make the design - Charles Eames",
+    "Design is not just what it looks like and feels like. Design is how it works - Steve Jobs",
+    "I strive for two things in design: simplicity and clarity. Great design is born of those two things - Lindon Leader",
+    // add more quotes here
+  ];
+
 export const About = () => {
+    const [quote, setQuote] = useState('');
+
+    useEffect(() => {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        setQuote(quotes[randomIndex]);
+    }, []);
+
     return (
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-10'>About</h2>
-                <p className='pb-10 text-zinc-900'>
-                    <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh
+                <p className='pb-10 text-zinc-900 italic'>
+                    {quote}
+                    {/* <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh */}
                 </p>
                 <Image 
                     src="/assets/about/me.webp" 
