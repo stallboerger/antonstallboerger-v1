@@ -19,7 +19,7 @@ export const UpsApp = () => {
                     <p className="text-sm font-medium self-center">View Prototype</p>
                     </Link>
                     <Link 
-                        href="#" 
+                        href="https://www.alicesopp.com/" 
                         className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-1 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
                         target="_blank"
                     >
@@ -70,7 +70,6 @@ export const UpsApp = () => {
                     width="593" 
                     height="305"
                     className='rounded-xl mb-6' 
-                    priority='true'
                 />
                 <br />
                 <h3 className='text-2xl pb-2 text-zinc-900'>Conclusion</h3>

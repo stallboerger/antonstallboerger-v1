@@ -18,7 +18,10 @@ export const Main = () => {
               by curiosity
               </h1>
               <p className='py-10 text-zinc-500'>
-              Enhancing human capabilities through design and development. I strive to create products that are intuitive and seamless, enhancing the capabilities of the users who interact with them. By considering the needs and desires of the end user throughout the design process, I believe in creating products that not only meet functional requirements but also provide a positive and enjoyable experience.
+              Enhancing human capabilities through design and development. I strive to create products that are intuitive and seamless, enhancing the capabilities of the users who interact with them. 
+              <br />
+              <br />
+              By considering the needs and desires of the end user throughout the design process, I believe in creating products that not only meet functional requirements but also provide a positive and enjoyable experience.
               </p>
               {/* <p className='pb-10 text-zinc-500'>
               Here are some of my curated works I&apos;ve done in the past.
@@ -59,7 +62,8 @@ export const Main = () => {
                   src="/assets/projects/curations.webp"  
                   alt='Curations' 
                   width="593" 
-                  height="305" 
+                  height="305"
+                  priority='true'  
                   className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
                 <div className='flex justify-between mb-10'>
@@ -89,7 +93,6 @@ export const Main = () => {
                   alt='UPS App Redesign' 
                   width="593" 
                   height="305" 
-                  priority='true' 
                   className='rounded-xl mb-2 group-hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'
                 />
                 <div className='flex justify-between mb-10'>
