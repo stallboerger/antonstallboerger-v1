@@ -3,16 +3,37 @@ import Link from 'next/link'
 
 export const Footer = () => {
     return (
-        <div className='w-full h-auto mt-10 mb-20'>
+        <div className='w-full h-auto mt-20 mb-20'>
             <div className="w-full h-[1px] bg-zinc-200 mb-6"></div>
             
             <div className="flex sm:flex-row flex-col gap-6 sm:gap-0 justify-between">
-                <div className="flex  gap-12 text-zinc-500 text-sm">
+                <div className="flex gap-12 text-zinc-500 text-sm">
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900">Connect</p>
-                        <a href="https://twitter.com/AntonStalli" className="hover:text-blue-600">Twitter</a>
-                        <a href="https://github.com/antonstallboerger" className="hover:text-purple-600">GitHub</a>
-                        <a href="https://read.cv/antonsta" className="hover:text-zinc-900">Read.cv</a>
+                        <a 
+                            href="https://twitter.com/AntonStalli" 
+                            className="hover:text-blue-600" 
+                            target="_blank" 
+                            rel="noreferrer"
+                        >
+                            Twitter
+                        </a>
+                        <a 
+                            href="https://github.com/antonstallboerger" 
+                            className="hover:text-purple-600" 
+                            target="_blank" 
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <a 
+                            href="https://read.cv/antonsta" 
+                            className="hover:text-zinc-900" 
+                            target="_blank" 
+                            rel="noreferrer"
+                        >
+                            Read.cv
+                        </a>
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900">Explore</p>
@@ -27,7 +48,7 @@ export const Footer = () => {
                         <Link href='/privacypolicy' className="hover:text-zinc-900">Privacy Policy</Link>
                     </div>
                 </div>
-                <p className="credits text-sm text-zinc-900 mb-6 font-medium">&copy; Anton Stallbörger 2023</p>
+                <p className="credits text-sm text-zinc-900 mb-6 font-medium">&copy; 2023 Anton Stallbörger</p>
             </div>
         </div>
     )
