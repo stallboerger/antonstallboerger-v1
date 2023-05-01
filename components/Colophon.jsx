@@ -40,6 +40,7 @@ export const Colophon = () => {
                         <a href="https://www.wireframe.co/" className='text-zinc-500 hover:text-zinc-900 w-fit underline'>Wireframe</a>
                         <a href="https://foundation.app/" className='text-zinc-500 hover:text-zinc-900 w-fit underline'>Foundation</a>
                         <a href="https://www.studiolenzing.com/" className='text-zinc-500 hover:text-zinc-900 w-fit underline'>Studio Lenzing</a>
+                        <a href="https://goods.wtf/" className='text-zinc-500 hover:text-zinc-900 w-fit underline'>Goods</a>
                     </div>
 
                     <h4 className='mb-4 mt-6 text-xl'>Great humans</h4>
