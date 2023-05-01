@@ -15,7 +15,8 @@ const quotes = [
     "The details are not the details. They make the design - Charles Eames",
     "Design is not just what it looks like and feels like. Design is how it works - Steve Jobs",
     "I strive for two things in design: simplicity and clarity. Great design is born of those two things - Lindon Leader",
-    // add more quotes here
+    "Everything should be made as simple as possible, but not simpler. - Albert Einstein",
+    "Good design is obvious. Great design is transparent - Joe Sparano",
   ];
 
 export const About = () => {
