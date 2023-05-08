@@ -37,7 +37,7 @@ export const Thoughts = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10"></div>
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10"></div>
 
                 <div id='gratitude'> 
                     <p className='text-sm mb-4 text-zinc-500'>
@@ -62,7 +62,7 @@ export const Thoughts = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                 <div id='thebeautyintheseeminglyinsignificant'>  
                     <p className='text-sm mb-4 text-zinc-500'>
@@ -90,7 +90,7 @@ export const Thoughts = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                 <div id='ambientcomputing'>
                     <p className='text-sm mb-4 text-zinc-500'>
@@ -115,7 +115,7 @@ export const Thoughts = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                 <div id='quality'>
                     <p className='text-sm mb-4 text-zinc-500'>
@@ -140,7 +140,7 @@ export const Thoughts = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                 <div className='mb-10' id='lifesjourney'>
                     <p className='text-sm mb-4 text-zinc-500'>

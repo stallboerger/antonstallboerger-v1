@@ -28,7 +28,7 @@ export default function AntonDropdown() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm text-zinc-500 hover:text-zinc-900 gap-0.5 font-medium hover:bg-zinc-100 rounded-full">
+        <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-sm text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 gap-0.5 font-medium hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-full">
           Explore
           <NavArrowDown className='self-center text-xs stroke-2'/>
         </Menu.Button>
@@ -47,12 +47,12 @@ export default function AntonDropdown() {
         <Menu.Items
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className="absolute right-0 sm:left-0 z-10 mt-4 w-fit origin-top-right divide-y divide-zinc-100 rounded-xl bg-white opacity-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="absolute right-0 sm:left-0 z-10 mt-4 w-fit origin-top-right divide-y divide-zinc-100 rounded-xl dark:bg-black bg-white opacity-100 shadow-lg ring-1 ring-black dark:ring-zinc-800 ring-opacity-5 focus:outline-none"
         >
           <div className="py-2">
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-900 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/about"> 
+                <Link className='text-zinc-900 dark:text-zinc-100 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 dark:hover:bg-zinc-900 hover:text-zinc900 gap-2' href="/about"> 
                   <User className='self-center text-xs stroke-2'/>
                   <p className='text-sm font-medium'>
                     About
@@ -62,7 +62,7 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-900 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/thoughts"> 
+                <Link className='text-zinc-900 dark:text-zinc-100 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 dark:hover:bg-zinc-900 hover:text-zinc900 gap-2' href="/thoughts"> 
                   <Brain className='self-center text-xs stroke-2'/>
                   <p className='text-sm font-medium'>
                     Thoughts
@@ -72,12 +72,12 @@ export default function AntonDropdown() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link className='text-zinc-900 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 hover:text-zinc900 gap-2' href="/playground"> 
+                <Link className='text-zinc-900 dark:text-zinc-100 px-3 py-2 mx-2 rounded-md text-sm flex hover:bg-zinc-100 dark:hover:bg-zinc-900 hover:text-zinc900 gap-2' href="/playground"> 
                   <Arcade className='self-center text-xs stroke-2'/>
                   <p className='text-sm font-medium'>
                     Playground
                   </p>
-                  <p className='text-xs self-center text-blue-500 border-2 border-blue-200 rounded-full py-0 px-1 font-medium'>
+                  <p className='text-xs self-center text-blue-500 border-2 border-blue-800 rounded-full py-0 px-1 font-medium'>
                     New
                   </p>
                 </Link>

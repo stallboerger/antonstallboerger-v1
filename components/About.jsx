@@ -31,9 +31,8 @@ export const About = () => {
         <div className='w-full h-auto pt-[140px]'>
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-10'>About</h2>
-                <p className='pb-10 text-zinc-900 italic'>
+                <p className='pb-10 text-zinc-900 dark:text-zinc-100 italic'>
                     {quote}
-                    {/* <span className='italic'>“Life is so short you can&apos;t waste even a day subscribing to what someone thinks you can do versus knowing what you can do”</span> - Virgil Abloh */}
                 </p>
                 <Image 
                     src="/assets/about/me.webp" 
@@ -58,18 +57,17 @@ export const About = () => {
                     className='rounded-xl object-cover mb-10 max-h-[305px]' 
                     priority='true'
                 />
-                {/* <Carousel /> */}
                 <p className='pb-10 text-zinc-500'>
-                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900 w-fit underline">Norm Architects</Link>.
+                My goal is to continue improving, learning, and exploring all the different areas life has to offer, with the ultimate goal of building a beloved home with the highly talented people at <Link href="https://normcph.com/" target="_blank" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline">Norm Architects</Link>.
                 </p>
                 <h3 className='text-2xl pb-6'>Tools I admire</h3>
-                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
+                <Link href="https://www.figma.com/" className='flex w-full gap-4 h-auto bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/figma.webp" 
                         alt="/" 
                         width="50" 
                         height="50" 
-                        className='self-center rounded-full'
+                        className='self-center rounded-full border border-zinc-100/10'
                     />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
@@ -80,13 +78,13 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
+                <Link href="https://iconoir.com/" className='flex w-full gap-4 h-auto bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/iconoir.webp" 
                         alt="/" 
                         width="50" 
                         height="50" 
-                        className='self-center rounded-full'
+                        className='self-center rounded-full border border-zinc-100/10'
                     />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
@@ -97,13 +95,13 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
+                <Link href="https://arc.net/" className='flex w-full gap-4 h-auto bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/arc.webp" 
                         alt="/" 
                         width="50" 
                         height="50" 
-                        className='self-center rounded-full'
+                        className='self-center rounded-full border border-zinc-100/10'
                     />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
@@ -114,13 +112,13 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
+                <Link href="https://nextjs.org/" className='flex w-full gap-4 h-auto bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image 
                         src="/assets/about/nextjs.webp" 
                         alt="/" 
                         width="50" 
                         height="50" 
-                        className='self-center rounded-full'
+                        className='self-center rounded-full border border-zinc-100/10'
                     />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
@@ -131,13 +129,13 @@ export const About = () => {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
+                <Link href="https://www.raycast.com/" className='flex w-full gap-4 h-auto bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl mb-4 hover:translate-y-[-2px] transition-all duration-300 ease-in-out transform'>
                     <Image
                         src="/assets/about/raycast.webp" 
                         alt="/" 
                         width="50" 
                         height="50" 
-                        className='self-center rounded-full'
+                        className='self-center rounded-full border border-zinc-100/10'
                     />
                     <div className='self-center'>
                         <p className='text-ml font-medium'>
@@ -150,10 +148,10 @@ export const About = () => {
                 </Link>
                 <Link href="https://www.curations.tech/" className='h-full mb-8 '>
                 <div className='flex h-fit text-zinc-500 group'>
-                    <p className='text-sm font-medium h-auto self-center group-hover:text-zinc-900'>
+                    <p className='text-sm font-medium underline h-auto self-center group-hover:text-zinc-900 dark:group-hover:text-zinc-100  group-dark:hover:text-zinc-100'>
                       More stunning tools
                     </p> 
-                    <NavArrowRight className='text-xs stroke-2 self-center group-hover:text-zinc-900 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
+                    <NavArrowRight className='text-xs stroke-2 self-center group-hover:text-zinc-900 dark:group-hover:text-zinc-100 group-hover:translate-x-0.5 transition-all duration-300 ease-in-out transform'/>
                   </div>
                 </Link>                
                 <Footer />

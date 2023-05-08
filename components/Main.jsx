@@ -9,23 +9,15 @@ export const Main = () => {
     <div className='w-full h-auto pt-[140px] md:pt-[180px]'>
         <div className='max-w-[593px] h-full mx-auto flex px-4'>
             <div>
-              {/* <div className='pb-4 flex flex-row'>
-                  <p className='text-sm text-zinc-500'>Schwäbisch Gmünd, Germany</p>
-              </div> */}
               <h1 className=''>
               Digital Product Designer and Developer driven 
               <br />
               by curiosity
               </h1>
               <p className='py-10 text-zinc-500'>
-              Enhancing human capabilities through design and development. I strive to create products that are intuitive and seamless, enhancing the capabilities of the users who interact with them. 
-              <br />
-              <br />
-              By considering the needs and desires of the end user throughout the design process, I believe in creating products that not only meet functional requirements but also provide a positive and enjoyable experience.
+              Enhancing human capabilities through design and development. I strive to create products that are intuitive and seamless
+              by considering the needs and desires of the end user. Throughout the design process, I believe in creating products that not only meet functional requirements but also provide a positive and enjoyable experience.
               </p>
-              {/* <p className='pb-10 text-zinc-500'>
-              Here are some of my curated works I&apos;ve done in the past.
-              </p> */}
 
               <Link href="boost" className='group'>
                 <Image 
@@ -48,7 +40,7 @@ export const Main = () => {
                     Q1 2023
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                     <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
@@ -78,7 +70,7 @@ export const Main = () => {
                     Q4 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                     <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
@@ -107,7 +99,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                     <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
@@ -136,7 +128,7 @@ export const Main = () => {
                     Q2 2022
                     </p>
                   </div>
-                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                  <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                     <p className='text-sm h-auto self-center font-medium'>
                       Learn more
                     </p> 
@@ -148,7 +140,7 @@ export const Main = () => {
               <p className='pb-6 text-zinc-500'>
               If you want to learn more about me or just want to talk about design, technology, or life in general, don&apos;t hesitate to reach out. I&apos;m always open to new conversations and opportunities.
               </p>
-              <a href="mailto:anton@stallboerger.de" className='hover:text-purple-50 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2 mb-10 text-sm font-medium'>Get in touch</a>
+              <a href="mailto:anton@stallboerger.de" className='hover:text-zinc-50 dark:hover:text-zinc-900 inline-flex w-fit justify-center rounded-lg border-2 border-zinc-200 bg-white dark:bg-black dark:border-zinc-800 px-2 py-1 text-l font-regular dark:text-zinc-100 text-zinc-900 dark:hover:bg-zinc-100 hover:bg-zinc-900 dark:hover:border-zinc-100 hover:border-zinc-900 gap-2 mb-10 text-sm font-medium'>Get in touch</a>
               <Footer />
             </div>
         </div> 

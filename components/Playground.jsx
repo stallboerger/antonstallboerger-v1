@@ -30,7 +30,7 @@ export const Playground = () => {
                                 Q1 2023
                                 </p>
                             </div>
-                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                                 <p className='text-sm h-auto self-center font-medium'>
                                 Learn more
                                 </p> 
@@ -39,7 +39,7 @@ export const Playground = () => {
                         </div>
                     </Link>
 
-                    <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                    <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                     <Link href="/greatfinds" className='group'>
                         <Image 
@@ -61,7 +61,7 @@ export const Playground = () => {
                                 Q1 2023
                                 </p>
                             </div>
-                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                                 <p className='text-sm h-auto self-center font-medium'>
                                 Learn more
                                 </p> 
@@ -70,7 +70,7 @@ export const Playground = () => {
                         </div>
                     </Link>
 
-                    <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                    <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                     <Link href="/heartbeatos" className='group'>
                         <Image 
@@ -92,7 +92,7 @@ export const Playground = () => {
                                 Q1 2023
                                 </p>
                             </div>
-                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                                 <p className='text-sm h-auto self-center font-medium'>
                                 Learn more
                                 </p> 
@@ -101,7 +101,7 @@ export const Playground = () => {
                         </div>
                     </Link>
 
-                    <div className="w-full h-[1px] bg-zinc-200 my-10" />
+                    <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10" />
 
                     <Link href="/sustainablegoods" className='group'>
                         <Image 
@@ -123,7 +123,7 @@ export const Playground = () => {
                                 Q4 2022
                                 </p>
                             </div>
-                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900'>
+                            <div className='flex h-fit text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100'>
                                 <p className='text-sm h-auto self-center font-medium'>
                                 Learn more
                                 </p> 

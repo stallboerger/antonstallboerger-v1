@@ -18,13 +18,13 @@ export const Colophon = () => {
                     />
                     <h4 className='mb-4 text-xl'>Typography</h4>
                     <p className='mb-20 leading-relaxed text-zinc-500'>
-                        <a href='https://rsms.me/inter/' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Inter</a> is a typeface designed and published by <a href='https://rsms.me/' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Rasmus Andersson</a>. It is carefully crafted & designed for computer screens. Free for personal and commercial use.
+                        <a href='https://rsms.me/inter/' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Inter</a> is a typeface designed and published by <a href='https://rsms.me/' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Rasmus Andersson</a>. It is carefully crafted & designed for computer screens. Free for personal and commercial use.
                     </p>
                     <h4 className='mb-4 text-xl'>Tech stack</h4>
                     <p className='mb-6 leading-relaxed text-zinc-500'>
-                        Built with <a href='https://nextjs.org/' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Next.js</a>, <a href='https://tailwindcss.com/' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Tailwind CSS</a>, and <a href='https://headlessui.com/' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Headless UI</a>. Hosted on <a href='https://vercel.com/home' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Vercel</a>. Privacy friendly analytics with <a href='https://vercel.com/analytics' className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">Vercel Analytics</a>.
+                        Built with <a href='https://nextjs.org/' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Next.js</a>, <a href='https://tailwindcss.com/' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Tailwind CSS</a>, and <a href='https://headlessui.com/' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Headless UI</a>. Hosted on <a href='https://vercel.com/home' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Vercel</a>. Privacy friendly analytics with <a href='https://vercel.com/analytics' className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">Vercel Analytics</a>.
                     </p>    
-                    <a href="https://github.com/antonstallboerger/nextjs-tailwind-portfolio" className='text-zinc-500 hover:text-zinc-900 w-fit underline' target="_blank" rel="noreferrer">GitHub Repository</a>
+                    <a href="https://github.com/antonstallboerger/nextjs-tailwind-portfolio" className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' target="_blank" rel="noreferrer">GitHub Repository</a>
                     
                     
                     <h4 className='mb-4 mt-20 text-xl'>Photography</h4>
@@ -36,7 +36,7 @@ export const Colophon = () => {
                     <div className='flex flex-col gap-2 mb-20'>
                         <a 
                             href="https://linusrogge.com/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -44,7 +44,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://sdrn.co/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -52,7 +52,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://www.cedric.design/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -60,7 +60,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://www.wireframe.co/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -68,7 +68,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://foundation.app/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -76,7 +76,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://www.studiolenzing.com/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -84,7 +84,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://goods.wtf/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -99,7 +99,7 @@ export const Colophon = () => {
                     <div className='flex flex-col gap-2 mb-10'>
                         <a 
                             href="https://linusrogge.com/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline' 
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline' 
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -107,7 +107,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://designwithtech.com/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline'
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline'
                             target="_blank" 
                             rel="noreferrer"
                         >
@@ -115,7 +115,7 @@ export const Colophon = () => {
                         </a>
                         <a 
                             href="https://www.nilseller.com/" 
-                            className='text-zinc-500 hover:text-zinc-900 w-fit underline'
+                            className='text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 w-fit underline'
                             target="_blank" 
                             rel="noreferrer"
                         >

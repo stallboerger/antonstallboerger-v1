@@ -12,7 +12,7 @@ export const HomyApp = () => {
                 <div className='flex gap-2 flex-wrap'>
                     <Link 
                         href="https://www.figma.com/proto/Q8Hj1VlDqYiPw9rx6n1SvP/Visual-Prototyping-Smart-Home-App?page-id=66%3A2&node-id=331%3A6081&viewport=-378%2C-1110%2C0.05&scaling=scale-down&starting-point-node-id=331%3A6081&show-proto-sidebar=1" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-2 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-zinc-50 dark:hover:text-zinc-900 inline-flex w-fit justify-center rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black py-1 pl-3 pr-3 text-l font-regular dark:text-zinc-100 text-zinc-900 hover:bg-zinc-900 dark:hover:bg-zinc-100  hover:border-zinc-900 dark:hover-border-100 gap-2" 
                         target="_blank"
                     >
                     <SmartphoneDevice className="text-xs self-center stroke-2"/>
@@ -20,13 +20,13 @@ export const HomyApp = () => {
                     </Link>
                     <Link 
                         href="https://www.nilseller.com/" 
-                        className="hover:text-purple-50 inline-flex w-fit justify-center rounded-full border border-zinc-200 bg-white py-1 pl-1 pr-3 text-l font-regular text-zinc-900 hover:bg-zinc-900 hover:border-zinc-900 gap-2" 
+                        className="hover:text-zinc-50 dark:hover:text-zinc-900 inline-flex w-fit justify-center rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black py-1 pl-1 pr-3 text-l font-regular dark:text-zinc-100 text-zinc-900 hover:bg-zinc-900 dark:hover:bg-zinc-100  hover:border-zinc-900 dark:hover-border-100 gap-2" 
                         target="_blank">
                         <Image
                             src="/assets/projects/nils_eller_portrait.jpg"
                             alt="Florian Kiem"
-                            width="24"
-                            height="24"
+                            width="30"
+                            height="30"
                             className="rounded-full"
                             priority="true"
                         />  
@@ -46,7 +46,7 @@ export const HomyApp = () => {
                     priority='true'
                 />
                 <br />
-                <h3 className='text-2xl pb-2 text-zinc-900'>Problem</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900 dark:text-zinc-100'>Problem</h3>
                 Many homeowners are unaware of their home&apos;s energy usage and the ways in which they can reduce it. This can lead to higher energy bills and a larger carbon footprint. In addition, individuals with disabilities may face challenges in accessing and controlling various aspects of their home, such as lighting, temperature, and appliances.
                 <br />
                 <br />
@@ -59,7 +59,7 @@ export const HomyApp = () => {
                     priority='true'
                 />
                 <br />
-                <h3 className='text-2xl pb-2 text-zinc-900'>Solution</h3>
+                <h3 className='text-2xl pb-2 text-zinc-900 dark:text-zinc-100'>Solution</h3>
                 Homy is a smart home app that helps users monitor and control their home&apos;s energy usage through a variety of features. The app includes a dashboard that displays real-time energy usage data, as well as tips and recommendations on how to reduce energy consumption. Users can also set energy-saving goals and track their progress over time.
                 </p>
                 <Footer/>
