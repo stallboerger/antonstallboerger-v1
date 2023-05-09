@@ -77,22 +77,12 @@ export default function AntonDropdown() {
                   <p className='text-sm font-medium'>
                     Playground
                   </p>
-                  <p className='text-xs self-center text-blue-500 border-2 border-blue-800 rounded-full py-0 px-1 font-medium'>
+                  <p className='text-xs self-center text-blue-500 border-2 border-blue-200 dark:border-blue-800 rounded-full py-0 px-1 font-medium'>
                     New
                   </p>
                 </Link>
               )}
             </Menu.Item>
-            {/* <Menu.Item>
-              {({ active }) => (
-                <Link className='text-zinc-300 hover:text-zinc-300 px-3 py-2 mx-2 text-sm flex rounded-md hover:bg-zinc-100 gap-2' href="">
-                    <QuestionMark className='self-center text-xs stroke-2'/>
-                    <p className='text-sm font-medium'>
-                        Coming soon
-                    </p>
-                </Link>
-            )}
-            </Menu.Item> */}
         </div>
         </Menu.Items>
         </Transition>
