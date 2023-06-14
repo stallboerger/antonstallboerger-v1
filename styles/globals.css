@@ -8,46 +8,52 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
-  html {
-    
-  }
+/* @layer base {
+  :root { font-family: 'Space Grotesk', sans-serif; }
+@support (font- variation-settings: normal) {
+  :root { font-family: 'Space Grotesk var', sans-serif; }
+} */
 
+html {
+  
+}
+
+body {
+  @apply bg-white text-zinc-900
+
+}
+
+/* color dark mode */
+
+@media (prefers-color-scheme: dark) {
   body {
-    @apply bg-white text-zinc-900
-
+    @apply bg-black text-zinc-100
   }
+}  
 
-  /* color dark mode */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold
+}
 
-  @media (prefers-color-scheme: dark) {
-    body {
-      @apply bg-black text-zinc-100
-    }
-  }  
+h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-semibold
-  }
+h2 {
+  @apply text-3xl sm:text-4xl md:text-5xl
+}
 
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight
-  }
+h3 {
+  @apply text-2xl sm:text-3xl md:text-4xl
+}
 
-  h2 {
-    @apply text-3xl sm:text-4xl md:text-5xl
-  }
+li {
+  @apply cursor-pointer
+};
 
-  h3 {
-    @apply text-2xl sm:text-3xl md:text-4xl
-  }
-
-  li {
-    @apply cursor-pointer
-  };
-
-  p {
-    @apply text-[17px] sm:text-base 
-  }
+p {
+  @apply text-[17px] sm:text-base 
+}
 }
 
 .expandable {

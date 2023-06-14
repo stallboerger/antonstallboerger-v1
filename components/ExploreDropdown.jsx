@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { Brain, User, BookmarkEmpty, NavArrowDown, QuestionMark, Arcade } from 'iconoir-react';
+import { Brain, User, NavArrowDown, Arcade } from 'iconoir-react';
 import Link from 'next/link';
 
 function classNames(...classes) {
