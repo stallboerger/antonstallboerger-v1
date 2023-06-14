@@ -11,7 +11,7 @@ export const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">Connect</p>
                         <a 
-                            href="https://twitter.com/AntonStalli" 
+                            href="https://twitter.com/antonstallbrgr" 
                             className="hover:text-blue-600" 
                             target="_blank" 
                             rel="noreferrer"
