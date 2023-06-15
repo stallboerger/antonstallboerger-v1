@@ -9,6 +9,32 @@ export const Thoughts = () => {
             <div className='max-w-[593px] h-full mx-auto flex flex-col px-4'>
                 <h2 className='pb-10'>Thoughts</h2>
 
+                <div id='theessenceofbeing'>
+                    <p className='text-sm mb-4 text-zinc-500'>
+                        Thu Jun 15, 2023
+                    </p>                
+                    <Image 
+                        src="/assets/thoughts/snohetta.png" 
+                        alt='Anton Stallbörger The Essence of Being' 
+                        width="593" 
+                        height="305" 
+                        className='rounded-xl object-cover mb-4 max-h-[305px]' 
+                        priority='true'
+                    />
+                    <h4 className='mb-4 text-xl'>The Essence of Being</h4>
+                    <p className='leading-relaxed text-zinc-500'>
+                    Conscious living is a profound philosophy that encourages us to embrace the present moment and live intentionally. It goes beyond the superficial aspects of existence and delves into the core of our being. By consciously examining how we spend our time, we can uncover the true essence of what it means to live a meaningful life.
+                    <br />
+                    <br />
+                    In a world filled with constant distractions and busyness, conscious living prompts us to pause and reflect on the activities we engage in. It invites us to reevaluate the pursuits that truly bring us joy, fulfillment, and personal growth. By consciously choosing to allocate our time to activities that align with our values and aspirations, we can cultivate a deep sense of purpose and authenticity. Whether it's pursuing a passion, engaging in acts of service, or fostering nurturing relationships, conscious living allows us to create a life that is rich with meaning and resonance.
+                    <br />
+                    <br />
+                    It involves examining our relationship with substances such as alcohol. While alcohol may be a prevalent social norm, consciously choosing not to drink or moderating our consumption can have transformative effects on our well-being. By embracing sobriety or mindful drinking, we gain clarity, emotional stability, and a heightened sense of self-awareness. We become more attuned to our inner desires and aspirations, enabling us to make conscious choices that nourish our mind, body, and soul. In doing so, we foster authentic connections with others, deepening our relationships and experiencing a profound sense of connection and understanding.
+                    </p>
+                </div>
+
+                <div className="w-full h-[1px] bg-zinc-200 dark:bg-zinc-800 my-10"></div>
+
                 <div id='thepursuitofperfection'>
                     <p className='text-sm mb-4 text-zinc-500'>
                         Fri Apr 28, 2023
