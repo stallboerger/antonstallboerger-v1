@@ -11,7 +11,7 @@ export const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">Connect</p>
                         <a 
-                            href="https://twitter.com/antonstallbrgr" 
+                            href="https://twitter.com/stallboerger" 
                             className="hover:text-blue-600" 
                             target="_blank" 
                             rel="noreferrer"
@@ -19,7 +19,7 @@ export const Footer = () => {
                             Twitter
                         </a>
                         <a 
-                            href="https://github.com/antonstallboerger" 
+                            href="https://github.com/stallboerger" 
                             className="hover:text-purple-600" 
                             target="_blank" 
                             rel="noreferrer"
@@ -27,7 +27,7 @@ export const Footer = () => {
                             GitHub
                         </a>
                         <a 
-                            href="https://read.cv/antonsta" 
+                            href="https://read.cv/stallboerger" 
                             className="hover:text-zinc-900 dark:hover:text-zinc-100" 
                             target="_blank" 
                             rel="noreferrer"
